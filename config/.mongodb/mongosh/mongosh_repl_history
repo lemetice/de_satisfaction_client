@@ -1,0 +1,9 @@
+db.commentaires.find()
+show collections;
+show collection;
+db.trustscore.find()
+db.trustscore.find
+use trustscore;
+db.commentaires.find()
+show collections
+use trustscore;

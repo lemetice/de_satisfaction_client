@@ -1,0 +1,31 @@
+version: "3.3"
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: my_mongo
+    volumes:
+      - ./config:/data/db  
+    ports:
+      - "27017:27017"
+
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.0
+    container_name: my_elasticsearch
+    restart: always
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.15.0
+    container_name: my_kibana
+    restart: always
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+
