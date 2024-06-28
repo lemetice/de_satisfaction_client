@@ -20,8 +20,6 @@ entreprises ont été insérées. (Quelques requêtes ont été effectuées pour
 Pour la partie Objet, nous avons créer une base de données MongoDB en local et nous y avons insérer les données sur les commentaires.
 
 
-
-
 Etape3: Consommation de la donnée
 
 Etape4: Mise en production
