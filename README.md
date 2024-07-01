@@ -12,6 +12,14 @@ Etape1: Récolte des données
 
 Etape2: Organisation de la donnée
 
+Les données ont été séparées sur 2 bases  de données ralationnelle et orientée documents.
+
+Pour la partie relationnelle, nous avons utilisé une base de données sqlite dans laquelles les données sur les 
+entreprises ont été insérées. (Quelques requêtes ont été effectuées pour vérifier le bon fonctionnement)
+
+Pour la partie Objet, nous avons créer une base de données MongoDB en local et nous y avons insérer les données sur les commentaires.
+
+
 Etape3: Consommation de la donnée
 
 Etape4: Mise en production
