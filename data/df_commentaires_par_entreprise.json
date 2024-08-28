@@ -506,7 +506,10 @@
         "commentaire": "Absolute Scam.Dont make a an account here go somewhere else.I was in the process of making an account and saw it needed a monthly payment.That was when I stopped yet an account was still made.And perhaps still charged me a monthly subscription without my knowledge",
         "nombre_reviews": "1 review",
         "date_experience": "August 22, 2024",
-        "reply": null
+        "reply": {
+            "reply_text": "Hi there,\n\nThank you for leaving a 1* Review on Trust Pilot, Without these we cannot assist our members in resolving the issues and making GoHenry a better service for our members.\n\nI am disheartened to hear that you have decided not to proceed with an account with us.\n\nWe would like the opportunity to assist you with this, go through the account sign-up journey and look into any charges you may have incurred. Please know that if you haven't successfully added a payment method then you will not be charged.\n\nHowever, as I was unable to locate your email address, therefore, unable to locate your account.\n\nFor us to help you ASAP, can you please confirm your contact details on Trust Pilot or pop over an email with the subject heading - \"FAO Supervisors - Issues\" to help@gohenrycard.com,\n\nI am sorry for any inconvenience this may have caused.\n\nMany thanks and I look forward to hearing from you.\n\nSuvechha - GoHenry Supervisor",
+            "reply_date": "Thursday, August 22, 2024 at 07:03:34 PM"
+        }
     },
     {
         "company_name": "GoHenry by Acorns",
@@ -1535,16 +1538,6 @@
         "reply": null
     },
     {
-        "company_name": "ATM Together",
-        "User": "Shuheb Rahman",
-        "localisation": "GB",
-        "Titre": "The only reason I’m not sure is that",
-        "commentaire": "The only reason I’m not sure is that",
-        "nombre_reviews": "1 review",
-        "date_experience": "June 01, 2024",
-        "reply": null
-    },
-    {
         "company_name": "ASDFTEST",
         "User": "asdf",
         "localisation": "US",
@@ -1552,6 +1545,16 @@
         "commentaire": "time for __proto__.asdf\nbh",
         "nombre_reviews": "1 review",
         "date_experience": "November 24, 2022",
+        "reply": null
+    },
+    {
+        "company_name": "ATM Together",
+        "User": "Shuheb Rahman",
+        "localisation": "GB",
+        "Titre": "The only reason I’m not sure is that",
+        "commentaire": "The only reason I’m not sure is that",
+        "nombre_reviews": "1 review",
+        "date_experience": "June 01, 2024",
         "reply": null
     },
     {
@@ -1886,12 +1889,22 @@
     },
     {
         "company_name": "PNC Bank",
-        "User": "Angela Gabriel",
+        "User": "James",
         "localisation": "US",
-        "Titre": "I recently opened up a checking account…",
-        "commentaire": "I recently opened up a checking account with PNC bank. After I got home I realized the PNC had a promotion if you were opening up a new account, you were eligible to PNC depositing $$ into your account. I reached out online and was informed that I had to contact the branch, which was the Michigan location on Northwestern and 12 mile road in Southfield, MI. I contacted the rep who waited on me. She informed me that she wasn't aware of this promotion. And that a promotion code should have been given. This is something that the bank should have mentioned. I was banking with Chase, and they provided $$ into my account ASAP as soon as I opened up a new account. I was very displeased about this.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 02, 2024",
+        "Titre": "We pulled our investments and checking…",
+        "commentaire": "We pulled our investments and checking account out of this bank. Know one really knows what they are doing.\nIf you need to contact a live person about something then get ready for your blood pressure to rise fast. The terrible service trickles down from poor upper management.",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 22, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Mary Sutton",
+        "localisation": "US",
+        "Titre": "PNC has not clue about customer service",
+        "commentaire": "PNC has not code of customer service, a long time client, has not walked in 5 plus weeks, and they will only allow her to come into the branch office to make a change to four of her accounts. Accounts that are not bearing interest that she set aside for her step nieces and nephews. I asked could the notary come over (1/1/2 miles away from the branch) so that she could sign the forms needed and help her. They said NO, our notaries are only able to do their job in the branch office. I asked which notary we could use to accomplish this, the Branch Manager said we cannot accept any other one??? I escalated a complaint, that person Asia, said same thing, I asked for who at PNC cared about Customer Service, and she said she would escalate another 48 hour wait to Executive Client Relations. I requested someone else higher up, but she said that was not possible. THEN I called the 4 numbers online, all rabbit holes. NO one is accountable, if I were you I would ask MORE questions about what matters, \"customer service or money? I would take my money and run. So Sad, we are customers, and so is my sister, but not for long. This is so unacceptable",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 22, 2024",
         "reply": null
     },
     {
@@ -1900,7 +1913,7 @@
         "localisation": "US",
         "Titre": "PNC is the worse bank … I requested to…",
         "commentaire": "PNC is the worse bank … I requested to close my account because it is not benefiting me and the fees are too high the representative sent me everything I needed but then tells me I have to wait till Tuesday … ok fine but why place me through the entire process and waste my time and make me do it twice…..never again!!!!!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 17, 2024",
         "reply": null
     },
@@ -1910,8 +1923,18 @@
         "localisation": "US",
         "Titre": "As of 08/17/24 I had a working account…",
         "commentaire": "As of 08/17/24 I had a working account until I got an email saying my Zelle was shut down. I asked support why this may be and instead of saying anything they just closed my account no explanation. Very disappointing was hoping to have a good banking experience but that seems to be too much to ask for at pnc",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 18, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Angela Gabriel",
+        "localisation": "US",
+        "Titre": "I recently opened up a checking account…",
+        "commentaire": "I recently opened up a checking account with PNC bank. After I got home I realized the PNC had a promotion if you were opening up a new account, you were eligible to PNC depositing $$ into your account. I reached out online and was informed that I had to contact the branch, which was the Michigan location on Northwestern and 12 mile road in Southfield, MI. I contacted the rep who waited on me. She informed me that she wasn't aware of this promotion. And that a promotion code should have been given. This is something that the bank should have mentioned. I was banking with Chase, and they provided $$ into my account ASAP as soon as I opened up a new account. I was very displeased about this.",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 02, 2024",
         "reply": null
     },
     {
@@ -1920,7 +1943,7 @@
         "localisation": "US",
         "Titre": "Worse bank ever!",
         "commentaire": "Money is constantly being put in and even taken away from me. I’ll spend the money THAT I HAVE IN MY ACCOUNT and the next day I’m negative which I know I didn’t over spend. I have it set up where, if I don’t have enough funds, my card will decline to prevent being overdrafted… but money is constantly being put in and out of my account. Worse bank ever! I wouldn’t even give it a one star if I had a choice",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 20, 2024",
         "reply": null
     },
@@ -1930,18 +1953,8 @@
         "localisation": "US",
         "Titre": "PNC bank allowed fraudulent charges…",
         "commentaire": "PNC bank allowed fraudulent charges from Cashapp to clear my account and refused to refund us because of a history of Cashapp use, my phone was hacked into and our other bank which is a Credit Union stopped it from coming through do not use this bank you will not be protected.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "May 20, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Alycia Jefferson",
-        "localisation": "US",
-        "Titre": "Milford Delaware branch… get educated on your own policies",
-        "commentaire": "We went to your Milford Delaware branch for a simple Notary Stamp and the service was awful. Either your staff are incompetent or they were just lazy and in all reality didn’t want to do it- specifically the staff member in the office who was rolling her eyes (and it was very obvious) when being approached by the staff member who was trying to assist us. After wasting our time for almost 25 minutes, we were told to go to the library…no thanks: we are account holders at both PNC and M&T (and your competitor) and we were in an out in 5 mins!!",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 09, 2024",
         "reply": null
     },
     {
@@ -1950,18 +1963,8 @@
         "localisation": "US",
         "Titre": "PNC bank did away with the tellers and…",
         "commentaire": "PNC bank did away with the tellers and drive through banking, and renamed tellers as bankers…yet no one I’ve spoken to in the branch has a degree or background in finance. The atms won’t take payroll checks, you have to get out of your car in bad weather to go into the bank to sit in someone’s office while you do somethin Simple like cash or deposit the checks their atm would not accept. I waste 20 minutes of my life every month dealing with this and I’m done. Inconvenient, not super friendly and predatory practices have made me leave a bank I have been with for over 20 years.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 09, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Valerie Bocz",
-        "localisation": "US",
-        "Titre": "PNC Bank and Chinese Banks",
-        "commentaire": "I am a PNC Bank SCAM/FRAUD victim in the amount of $900,000 consisting of Chinese International Wires sent from PNC Bank. The issue at hand is I did not approve the International Wires sent from my PNC Bank checking and savings accounts (see documentation). To date, the FBI, Dept. of Homeland Security, Dept. of Justice, and other federal agencies including the White House have ignored my complaints. PNC Bank is also accusing me of the SCAM/FRAUD and International Wires.\n\nMy biggest concern is being accused of money fraud and anti-money laundering with the PNC Bank Chinese International Wires in the amount of $900,000.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 01, 2024",
         "reply": null
     },
     {
@@ -1970,8 +1973,18 @@
         "localisation": "US",
         "Titre": "PNC is by far one of the top worse…",
         "commentaire": "PNC is by far one of the top worse banking companies out there . From their online banking to their customer service it’s just horrendous . If you have them please keep your money under microscopic view because this bank will make nearly impossible to track transaction if you use your debit card and make impossible to actually talk to a real person to fix an issue. Not only will they lock your account for no reason or notice but theyll literally make it to where you can’t speak to someone and fix the issue . The list is just to big of negative things to say. Once I get my money out I will never ever use this bank for anything ever",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 10, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Valerie Bocz",
+        "localisation": "US",
+        "Titre": "PNC Bank and Chinese Banks",
+        "commentaire": "I am a PNC Bank SCAM/FRAUD victim in the amount of $900,000 consisting of Chinese International Wires sent from PNC Bank. The issue at hand is I did not approve the International Wires sent from my PNC Bank checking and savings accounts (see documentation). To date, the FBI, Dept. of Homeland Security, Dept. of Justice, and other federal agencies including the White House have ignored my complaints. PNC Bank is also accusing me of the SCAM/FRAUD and International Wires.\n\nMy biggest concern is being accused of money fraud and anti-money laundering with the PNC Bank Chinese International Wires in the amount of $900,000.",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 01, 2024",
         "reply": null
     },
     {
@@ -1980,18 +1993,18 @@
         "localisation": "US",
         "Titre": "PNC - fraud and theft",
         "commentaire": "If it were possible to give negative stars, I would. I banked with PNC for over a decade. Back in April I had to file a dispute on a $5500 payment which I was then able to cancel since the vendor got the money. PNC didn’t cancel it in a timely manner as promised and the $5500 was returned to them. It has been over 4 months and they WONT give us our money. I have spent countless hours on the phone with zero resolution. Now I am having to file legal action. Do not do business with this bank.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 14, 2024",
         "reply": null
     },
     {
         "company_name": "PNC Bank",
-        "User": "nathan",
+        "User": "Alycia Jefferson",
         "localisation": "US",
-        "Titre": "Predatory overdraft practices",
-        "commentaire": "I've been a customer with PNC for a decade, but am in the process of switching to a new bank. PNC has become incredibly aggressive to the point of predatory with their overdraft fees. They take longer than other banks to clear transactions and update balances, and then happily charge $36 for every transaction that comes through while an account is negative. This is plainly profiting on customer's struggles, and I imagine the increased aggression has something to do with the fact that they know the CFPB is working to cut overdraft fees to a reasonable amount. Their online banking system is also outdated, clunky, difficult to navigate, and as stated before, balances are almost never correct, which makes it incredibly hard to stay on top of it. I don't recommend becoming a customer with them at all.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 07, 2024",
+        "Titre": "Milford Delaware branch… get educated on your own policies",
+        "commentaire": "We went to your Milford Delaware branch for a simple Notary Stamp and the service was awful. Either your staff are incompetent or they were just lazy and in all reality didn’t want to do it- specifically the staff member in the office who was rolling her eyes (and it was very obvious) when being approached by the staff member who was trying to assist us. After wasting our time for almost 25 minutes, we were told to go to the library…no thanks: we are account holders at both PNC and M&T (and your competitor) and we were in an out in 5 mins!!",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 09, 2024",
         "reply": null
     },
     {
@@ -2000,18 +2013,8 @@
         "localisation": "US",
         "Titre": "I visited bank for some update to my…",
         "commentaire": "I visited bank for some update to my existing account as it was not available online. Customer service mentioned that they don't have any availability even though I didn't find even a single customer in bank at that time. They asked me to schedule for next day online even though I could see availability of appointment same day.\nThey don't care whether you are associated with them or not.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 06, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Aaron Elzy",
-        "localisation": "US",
-        "Titre": "Forced to deal with this horrible bank against our will",
-        "commentaire": "PNC bought our mortgage from an actual good bank we like. It's been nothing but misery from day one dealing with them. A single letter was sent with no other communication about the transfer. We attempted to setup automatic payments but since the first payment to them was late due to us being unaware, they tried to add on a huge late fee and block future automatic payments requiring us to manually initiate one time payments. The customer service was absolutely worthless throughout the entire process. Avoid this bank at all costs.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 01, 2024",
         "reply": null
     },
     {
@@ -2020,17 +2023,17 @@
         "localisation": "US",
         "Titre": "I had to report them to the Department…",
         "commentaire": "I had to report them to the Department of Veterans Affairs for stealing my money and making excuses for blocking me from getting. They are not trustworthy. Please don’t waste your money on them. There are better trustworthy Banks everywhere",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "March 30, 2024",
         "reply": null
     },
     {
         "company_name": "PNC Bank",
-        "User": "Isaac's mom",
+        "User": "Aaron Elzy",
         "localisation": "US",
-        "Titre": "Horrible customer service",
-        "commentaire": "Horrible customer service! Refused to deposit my check into my account because my husband's name was on it.\nWhen I called they told me to wait for the check to come.\nAfter 2 weeks I called and after being put on hold for an hour and being refused a supervisor I was then told that dept was closed.\nThey called be a day later and told me the photocopied check was actually real and I needed to bring it into a branch again!\nThey owe me 5% interest for a month now on $3500 and are refusing to give it to me.\nI deposited the check into a different bank with no problem.",
-        "nombre_reviews": "1 review",
+        "Titre": "Forced to deal with this horrible bank against our will",
+        "commentaire": "PNC bought our mortgage from an actual good bank we like. It's been nothing but misery from day one dealing with them. A single letter was sent with no other communication about the transfer. We attempted to setup automatic payments but since the first payment to them was late due to us being unaware, they tried to add on a huge late fee and block future automatic payments requiring us to manually initiate one time payments. The customer service was absolutely worthless throughout the entire process. Avoid this bank at all costs.",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 01, 2024",
         "reply": null
     },
@@ -2040,8 +2043,28 @@
         "localisation": "US",
         "Titre": "I am an auto dealer in Tennessee",
         "commentaire": "I am an auto dealer in Tennessee. My dealership traded in a Jeep Wrangler that was financed through PNC. We have made 5 attempts to pay off this customer's loan, and all 5 attempts ended with \"denied\" status. However, during the course of all this I received the title to the Jeep from PNC bank. They only release titles when the loans are paid in full. As a consumer, I would never bank with, or finance anything through this bank. They are completely ruining my customer's credit because of this. I am currently on hold AGAIN as I'm typing this trying to sort this out for the customer. I am going on 27 minutes on this call, and this is the 8th time in 2 weeks that I've been on the phone with them. They are a total SCAM and don't have any customer service.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 08, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "nathan",
+        "localisation": "US",
+        "Titre": "Predatory overdraft practices",
+        "commentaire": "I've been a customer with PNC for a decade, but am in the process of switching to a new bank. PNC has become incredibly aggressive to the point of predatory with their overdraft fees. They take longer than other banks to clear transactions and update balances, and then happily charge $36 for every transaction that comes through while an account is negative. This is plainly profiting on customer's struggles, and I imagine the increased aggression has something to do with the fact that they know the CFPB is working to cut overdraft fees to a reasonable amount. Their online banking system is also outdated, clunky, difficult to navigate, and as stated before, balances are almost never correct, which makes it incredibly hard to stay on top of it. I don't recommend becoming a customer with them at all.",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 07, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Isaac's mom",
+        "localisation": "US",
+        "Titre": "Horrible customer service",
+        "commentaire": "Horrible customer service! Refused to deposit my check into my account because my husband's name was on it.\nWhen I called they told me to wait for the check to come.\nAfter 2 weeks I called and after being put on hold for an hour and being refused a supervisor I was then told that dept was closed.\nThey called be a day later and told me the photocopied check was actually real and I needed to bring it into a branch again!\nThey owe me 5% interest for a month now on $3500 and are refusing to give it to me.\nI deposited the check into a different bank with no problem.",
+        "nombre_reviews": "3 reviews",
+        "date_experience": "August 01, 2024",
         "reply": null
     },
     {
@@ -2050,7 +2073,7 @@
         "localisation": "US",
         "Titre": "They stole our money orders",
         "commentaire": "We had made money orders to pay our rent. We turned them into the complex office and they informed us that they do not accept money orders. So we went to the bank (pnc bank in Walnut Creek Ca) to see if we can deposit the money orders in exchange for a cashiers check. Absolutely worst decision we could've ever made.... the clerk took our money orders and filed them into a fraud case! We had our identification, we had receipts, we had everything to prove that we bought them... but they took our money orders against our will and then when we spoke to the manager, she claimed it's not their fault.... like hellloooo, you guys took our money orders and filled them for fraud! Now, we're out of our entire rent check and they just laughed it off like it wasn't a big deal.... if you value your time and your money. You will stay far away from pnc bank. They will try to get you arrested for simply wanting to use their services to pay bills. I wish I could give a zero star rating. Absolute joke of a bank. They 1000000% don't trust their customers and will do you no good in any aspect of banking",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "August 12, 2024",
         "reply": null
     },
@@ -2060,28 +2083,8 @@
         "localisation": "US",
         "Titre": "Can't pay credit card bill by phone /…",
         "commentaire": "Can't pay credit card bill by phone / automated system without entering your routing number and account number? That's not safe to carry that around everywhere. They also shut my car down when my payment was late, even though it was only $100, late by one week,and I had a $7,500 credit limit.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "3 reviews",
         "date_experience": "July 30, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Jonathan Martin",
-        "localisation": "US",
-        "Titre": "Amazing bank and amazing employees",
-        "commentaire": "Amazing bank and amazing employees. Only complaint is the non English speaking customer care for their credit cards.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 09, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "paul mahowald",
-        "localisation": "US",
-        "Titre": "The PNC Bank in San Juan Texas will not…",
-        "commentaire": "The PNC Bank in San Juan Texas will not notarized for a customer who has been a customer for over 10year..\n\nVery poor customer service!!!!",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 08, 2024",
         "reply": null
     }
 ]
