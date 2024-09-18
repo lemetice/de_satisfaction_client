@@ -1,0 +1,17 @@
+pandas==1.5.3
+numpy==1.24.4
+selenium==4.11.2
+sqlalchemy==1.4
+#psycopg2-binary==2.9.7  # Utilisé si tu travailles avec PostgreSQL
+ipython-sql==0.4.1  # Pour exécuter des requêtes SQL dans un notebook Jupyter
+pymongo
+dash
+dash-bootstrap-components
+dash-mantine-components==0.12.1
+dash-holoniq-wordcloud
+seaborn
+matplotlib
+textblob
+nltk
+wordcloud
+scikit-learn
