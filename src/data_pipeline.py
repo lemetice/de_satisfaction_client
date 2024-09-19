@@ -27,7 +27,7 @@ def run_data_pipeline(csv_file_path, json_file_path):
 
         # Étape 2 : Preprocessing des données
         print("Preprocessing des données...")
-        df = company_preprocessing(df)  # Appel de la fonction de preprocessing pour nettoyer et transformer les données
+        df = company_preprocessing(df)  
 
         # Vérification des types de données après preprocessing
         print("Types de données après preprocessing :")
