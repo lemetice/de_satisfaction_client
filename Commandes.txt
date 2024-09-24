@@ -1,0 +1,36 @@
+CREATION DES ENV VITRUELS
+python -m venv venv
+
+
+ACTIVATION
+.\venv\Scripts\activate
+
+DESCATIVATION
+deactivate
+
+
+pip install -r requirements.txt
+
+
+docker compose up -d
+
+Etape 1 : "Il faut s'assurer que MongoDB est installé et actif."
+Etape 2 : " Lancer la commande docker-compose up -d  qui va initialiser le Docker avec tous les composants nécéssaire voir fichier .yml"
+
+
+COMMANDES DOCKER
+
+docker compose up -d 
+
+docker stop my_kibana my_elasticsearch
+
+docker rm my_kibana my_elasticsearch
+
+
+EXECUTION DE LA PIPELINE
+
+
+
+python .\viz.py
+
+git commit –m “Ajout du document de commandes”
