@@ -1,7 +1,8 @@
 import pandas as pd
 import os 
 from mongo_insertion import insert_data_from_json_to_mongodb
-from sql_lite_insertion import insert_companies_and_reviews
+#from sql_lite_insertion import insert_companies_and_reviews
+from postgres_insertion import insert_companies_to_postgres
 from scrapping import scrape_trustpilot
 from preprocessing import company_preprocessing
 
@@ -34,14 +35,22 @@ def run_data_pipeline(csv_file_path, json_file_path):
         print(df.dtypes)
 
         # Étape 3 : Insertion des données dans SQLite
-        print("Insertion des données dans SQLite...")
-        insert_companies_and_reviews(df)
+        #print("Insertion des données dans SQLite...")
+        #insert_companies_and_reviews(df)
+
+        # Étape 3 : Insertion des données dans PostgreSQL
+        print("Insertion des données dans PostgreSQL...")
+
+        # Appel de la fonction d'insertion dans PostgreSQL
+        insert_companies_to_postgres(csv_file_path, db_config)
+        print("Pipeline d'insertion Postgres terminé avec succès.")
+
 
         # Étape 4 : Insertion des données dans MongoDB
         print("Insertion des données dans MongoDB...")
         insert_data_from_json_to_mongodb(json_file_path)
 
-        print("Pipeline d'insertion terminé avec succès.")
+        print("Pipeline d'insertion MongoDB terminé avec succès.")
 
     except Exception as e:
         print(f"Erreur dans le pipeline : {e}")
@@ -52,6 +61,15 @@ if __name__ == "__main__":
     base_path = '../data'
     csv_file_path = os.path.join(base_path, 'informations_entreprises.csv')
     json_file_path = os.path.join(base_path, 'df_commentaires_par_entreprise.json')
+
+        # Définir la configuration PostgreSQL
+    db_config = {
+    'host': 'localhost',  # Remplace si nécessaire
+    'port': '5432',       # Le port par défaut de PostgreSQL
+    'database': 'trustscore_db',
+    'user': 'myuser',
+    'password': 'mypassword'
+    }
 
     # Exécuter le pipeline
     run_data_pipeline(csv_file_path, json_file_path)

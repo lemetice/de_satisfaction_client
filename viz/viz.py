@@ -11,13 +11,26 @@ from textblob import TextBlob
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 import re
+import psycopg2
+from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
+
+warnings.filterwarnings("ignore")
 
 
-# Section 2: Chargement des bases de données avec Python
-# Connexion à SQLite
-conn = sqlite3.connect('../src/trustscore.db')
-df = pd.read_sql_query("SELECT * FROM companies_infos", conn)
-conn.close()
+# Configuration de la chaîne de connexion avec SQLAlchemy
+DATABASE_URL = "postgresql+psycopg2://myuser:mypassword@localhost:5432/trustscore_db"
+
+# Connexion à PostgreSQL avec SQLAlchemy
+try:
+    engine = create_engine(DATABASE_URL)
+    with engine.connect() as connection:
+        # Exécuter la requête SQL et charger les données dans un DataFrame pandas
+        df = pd.read_sql_query("SELECT * FROM companies", connection)
+
+except SQLAlchemyError as e:
+    print(f"Erreur de connexion à PostgreSQL via SQLAlchemy : {e}")
+    df = pd.DataFrame()  # Crée un DataFrame vide si la connexion échoue
 
 # Connexion à MongoDB
 client = MongoClient('mongodb://localhost:27017/')
@@ -28,6 +41,9 @@ client.close()
 
 # Renommer la colonne 'five_star_percentage' en 'five_star_%'
 df.rename(columns={'five_star_percentage': 'five_star_%'}, inplace=True)
+
+#Renommer la colonne review
+df.rename(columns={'review': 'nombre_reviews'}, inplace=True)
 
 # Concaténer '%' aux valeurs et ignorer les NaN
 df['five_star_%'] = df['five_star_%'].apply(lambda x: f"{x * 100:.0f}%" if pd.notna(x) and isinstance(x, (int, float)) else x)
