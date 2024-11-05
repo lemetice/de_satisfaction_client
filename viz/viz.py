@@ -199,22 +199,22 @@ app.layout = dbc.Container([
         ############### Add filters
         #dbc.Col([dcc.Graph(figure=map_fig)], width=12),
         dbc.Col([html.H4("Company Dashboard")], width=12),
-        dbc.Col([dcc.Dropdown(
-            id='dropdown-town',
-            options=[{'label': x, 'value': x} for x in df['town'].unique()],
-            multi=True,
-            placeholder="Select a town"
-        )], width=6),
-        dbc.Col([ dcc.Dropdown(
-            id='filter-country',
-            options=[{'label': x, 'value': x} for x in df['country'].unique()],
-            multi=False,
-            placeholder="Select a Country"
-        )], width=6),
+        #dbc.Col([dcc.Dropdown(
+        #    id='dropdown-town',
+        #    options=[{'label': x, 'value': x} for x in df['town'].unique()],
+        #    multi=True,
+        #    placeholder="Select a town"
+        #)], width=6),
+        #dbc.Col([ dcc.Dropdown(
+        #    id='filter-country',
+        #    options=[{'label': x, 'value': x} for x in df['country'].unique()],
+        #    multi=False,
+        #    placeholder="Select a Country"
+        #)], width=6),     
         dbc.Col([dcc.Graph( id = 'filter-town',figure=trust_fig)], width=6),
-        dbc.Col([dcc.Graph(figure=institution_fig)], width=6),
+        #dbc.Col([dcc.Graph(figure=institution_fig)], width=6),
         dbc.Col([dcc.Graph(figure=top_companies_fig)], width=6),
-        dbc.Col([dcc.Graph(figure=review_dist_fig)], width=6),
+        #dbc.Col([dcc.Graph(figure=review_dist_fig)], width=6),
         #dbc.Col([dcc.Graph(figure=comparison_fig)], width=6),
         #dbc.Col([dcc.Graph(id='filtered-graph')], width=6),
     ]),

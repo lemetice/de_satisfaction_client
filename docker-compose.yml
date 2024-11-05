@@ -28,4 +28,43 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     depends_on:
       - elasticsearch
+  
+  postgresdb:
+    image: postgres:13
+    container_name: postgres
+    volumes:
+      - ./config:/data/db  
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user_val
+      POSTGRES_PASSWORD: user_password
+      POSTGRES_DB: db_name
+  
+  api:
+    build: 
+      context: 
+      dockerfile: Dockerfile.api
+    ports:
+      - "5000:5000"
+    environment:
+      - POSTGRES_URI = "postgresql://user:password@localhost:5434/kafka_data"
+      - MONGO_URI = "mongodb://localhost:27017/your_mongo_db"
+    depends_on:
+      - postgresdb
+      - mongodb
 
+
+  viz:
+    build: 
+      context: 
+      dockerfile: Dockerfile.viz
+    ports:
+      - "6000:6000"
+    depends_on:
+      - api
+
+  networks:
+    network_1:
+      name : DE_satisfaction_Network
+      driver: bridge
