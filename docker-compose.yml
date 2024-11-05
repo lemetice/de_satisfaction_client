@@ -53,8 +53,8 @@ services:
     depends_on:
       - postgresdb
       - mongodb
-    
-  
+
+
   viz:
     build: 
       context: 
