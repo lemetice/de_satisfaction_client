@@ -14,8 +14,8 @@ import re
 warnings.filterwarnings("ignore")
 
 # Base URL de l'API Flask
-#BASE_URL = "http://flask_api:5000/api"
-BASE_URL = "http://localhost:5000/api"
+BASE_URL = "http://flask_api:5000/api"
+#BASE_URL = "http://localhost:5000/api"
 
 
 # Récupérer les données des entreprises via l'API
@@ -290,6 +290,6 @@ def update_histogram(selected_company):
     return fig
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=8050, debug=True)
 
 

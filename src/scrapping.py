@@ -2,6 +2,7 @@ import time
 import json
 import pandas as pd
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,6 +13,19 @@ import os
 warnings.filterwarnings("ignore")
 
 def scrape_trustpilot():
+    # Configurer les options pour Chrome en mode headless
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Exécuter en mode headless (sans interface)
+    chrome_options.add_argument("--no-sandbox")  # Nécessaire pour éviter les problèmes de sandboxing dans Docker
+    chrome_options.add_argument("--disable-dev-shm-usage")  # Empêche les problèmes de partage de mémoire dans Docker
+    chrome_options.add_argument("--disable-gpu")  # Désactive le GPU
+    chrome_options.add_argument("--window-size=1920,1080")  # Définit une taille de fenêtre pour le mode headless
+    chrome_options.add_argument("--remote-debugging-port=9222")  # Active le port de débogage à distance
+    chrome_options.add_argument("--disable-software-rasterizer")  # Désactive le rasteriseur logiciel
+
+
+    # Initialiser le WebDriver avec les options
+    driver = webdriver.Chrome(options=chrome_options)
     # Configuration du WebDriver
     driver = webdriver.Chrome()
     url = "https://www.trustpilot.com/categories/atm"
