@@ -1,6 +1,16 @@
 [
     {
         "company_name": "Evergreen Credit Union",
+        "User": "Lorrie Rand",
+        "localisation": "US",
+        "Titre": "I have all of my banking with…",
+        "commentaire": "I have all of my banking with Evergreen. My car loan included. So when it came time to get a new one I really wanted to keep financing with Evergreen for my new car loan. Everyone was great and helpful and made it work. Thank you again.",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 04, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "Evergreen Credit Union",
         "User": "Tony Field",
         "localisation": "US",
         "Titre": "Great customer service",
@@ -37,19 +47,6 @@
     },
     {
         "company_name": "Evergreen Credit Union",
-        "User": "Charlie Quatrano",
-        "localisation": "US",
-        "Titre": "Rebecca was very helpful in finding my…",
-        "commentaire": "Rebecca was very helpful in finding my transaction records from a few years ago. She was able to get me the information I needed very quickly and was very kind throughout our multiple conversations. I’ve been a member for more than 25 years and employees like Rebecca are why I’ve continued to bank here.",
-        "nombre_reviews": "1 review",
-        "date_experience": "August 02, 2024",
-        "reply": {
-            "reply_text": "Hello Charlie,\n\nThank you for sharing your experience with Rebecca! We're glad to hear she helped you find what you were looking for.\n\nBest,\nEmma P.\nEvergreen CU",
-            "reply_date": "Monday, August 26, 2024 at 03:56:36 PM"
-        }
-    },
-    {
-        "company_name": "Evergreen Credit Union",
         "User": "Sherry Spaulding",
         "localisation": "US",
         "Titre": "Evergreen Credit Union was amazing to…",
@@ -59,6 +56,19 @@
         "reply": {
             "reply_text": "We're happy Sarah was able to help you, Sherry! Thank you for choosing us for your loan.\n\nBest,\nEmma\nEvergreen CU",
             "reply_date": "Monday, July 8, 2024 at 08:41:18 PM"
+        }
+    },
+    {
+        "company_name": "Evergreen Credit Union",
+        "User": "Charlie Quatrano",
+        "localisation": "US",
+        "Titre": "Rebecca was very helpful in finding my…",
+        "commentaire": "Rebecca was very helpful in finding my transaction records from a few years ago. She was able to get me the information I needed very quickly and was very kind throughout our multiple conversations. I’ve been a member for more than 25 years and employees like Rebecca are why I’ve continued to bank here.",
+        "nombre_reviews": "1 review",
+        "date_experience": "August 02, 2024",
+        "reply": {
+            "reply_text": "Hello Charlie,\n\nThank you for sharing your experience with Rebecca! We're glad to hear she helped you find what you were looking for.\n\nBest,\nEmma P.\nEvergreen CU",
+            "reply_date": "Monday, August 26, 2024 at 03:56:36 PM"
         }
     },
     {
@@ -232,28 +242,28 @@
     },
     {
         "company_name": "Evergreen Credit Union",
-        "User": "Matthew L’Abbe",
+        "User": "Stig",
         "localisation": "US",
-        "Titre": "Great experience",
-        "commentaire": "I had multiple scam charges ending in a negative balance with OD charges and I worked with Rebecca Lanefski and we were able to resolve all my account issues quickly and she was very delightful, knowledgeable, and easy to work with. Thank you Rebecca and thank you evergreen for your support!!!!",
+        "Titre": "I ordered a Toyota RAV4 Prime in late…",
+        "commentaire": "I ordered a Toyota RAV4 Prime in late winter \"22 and applied for a car loan from Cassandra Hanson at the Riverside, Westbrook office. She OK'ed my application with a 2% interest, but the loan could not be finalized until delivery of the car, which took place around May 22. In the mean time interest rates had gone up, but she convinced the upper management to let her keep the interest at 2%. I appreciate the keeping of promises.\nSincerely, Stig Ammentorp",
         "nombre_reviews": "1 review",
-        "date_experience": "June 18, 2024",
+        "date_experience": "June 18, 2022",
         "reply": {
-            "reply_text": "We're happy Rebecca could help you, Matthew! Thanks for sharing your experience.\n\nBest,\nEmma\nEvergreen CU",
-            "reply_date": "Thursday, June 20, 2024 at 03:51:25 PM"
+            "reply_text": "Thank you for your time to post this review Stig. This is very much appreciated.\n\nHave a great weekend.\n\nPaul L\nEvergreen Credit Union\nMember Services",
+            "reply_date": "Friday, July 1, 2022 at 05:50:57 PM"
         }
     },
     {
-        "company_name": "Evergreen Credit Union",
-        "User": "Rosie Hartzler",
+        "company_name": "Liberty First Credit Union",
+        "User": "Shelton Valentine",
         "localisation": "US",
-        "Titre": "Sara was excellent today",
-        "commentaire": "Sara was excellent today! She was able to explain all the necessary details about changing our account, and was very helpful in terms of knowing how to best go forward. She was very patient, considerate and demonstrated excellent customer service skills. We would recommend her to anybody, thanks so much Sarah",
+        "Titre": "Bridget is the best Loan officer I’ve ever encountered!!!",
+        "commentaire": "On November 7th, I applied for and got approved for an auto loan. Bridget has been incredibly helpful throughout the entire process. She also added insurance to the loan in case something happens to me, which really eases my mind. Additionally, she handles personal loans, auto loans, and motorcycle loans. I highly recommend her for any of your financial needs.",
         "nombre_reviews": "1 review",
-        "date_experience": "January 25, 2024",
+        "date_experience": "November 07, 2024",
         "reply": {
-            "reply_text": "Hi Rosie,\n\nThank you for sharing your experience with us! We're happy Sara was able to answer your questions about our accounts and how to move forward in the best way for you.\n\nBest,\nEvergreen CU",
-            "reply_date": "Wednesday, January 31, 2024 at 01:47:15 PM"
+            "reply_text": "Thank you for the great review and being a member of Liberty First. We are so glad Bridgette was such a great help!",
+            "reply_date": "Wednesday, November 13, 2024 at 08:50:48 PM"
         }
     },
     {
@@ -297,19 +307,6 @@
     },
     {
         "company_name": "Liberty First Credit Union",
-        "User": "Jonathan",
-        "localisation": "US",
-        "Titre": "Everything you'd expect and more.",
-        "commentaire": "A truly personal, patient experience. No high pressure, no upselling, no rush. It's local and personal. I cannot recommend LFCU enough.",
-        "nombre_reviews": "1 review",
-        "date_experience": "October 22, 2024",
-        "reply": {
-            "reply_text": "Thank you, Jonathan. We are glad you had a great experience with LFCU.",
-            "reply_date": "Friday, November 8, 2024 at 05:11:35 PM"
-        }
-    },
-    {
-        "company_name": "Liberty First Credit Union",
         "User": "Christie",
         "localisation": "US",
         "Titre": "Friendly and accommodating!",
@@ -323,6 +320,19 @@
     },
     {
         "company_name": "Liberty First Credit Union",
+        "User": "Jonathan",
+        "localisation": "US",
+        "Titre": "Everything you'd expect and more.",
+        "commentaire": "A truly personal, patient experience. No high pressure, no upselling, no rush. It's local and personal. I cannot recommend LFCU enough.",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 22, 2024",
+        "reply": {
+            "reply_text": "Thank you, Jonathan. We are glad you had a great experience with LFCU.",
+            "reply_date": "Friday, November 8, 2024 at 05:11:35 PM"
+        }
+    },
+    {
+        "company_name": "Liberty First Credit Union",
         "User": "Cheryl Jones",
         "localisation": "US",
         "Titre": "Car loans that make sense and are for you not the car dealer",
@@ -330,19 +340,6 @@
         "nombre_reviews": "1 review",
         "date_experience": "October 31, 2024",
         "reply": null
-    },
-    {
-        "company_name": "Liberty First Credit Union",
-        "User": "customer",
-        "localisation": "US",
-        "Titre": "Car loan",
-        "commentaire": "Had a wonderful experience getting a new car loan as well as refinancing my previous car loan. Interest rates can’t be beat!",
-        "nombre_reviews": "1 review",
-        "date_experience": "September 21, 2024",
-        "reply": {
-            "reply_text": "We are so happy to hear that you had a great experience. Thank you for being a member of Liberty First Credit Union!",
-            "reply_date": "Tuesday, October 1, 2024 at 05:14:11 PM"
-        }
     },
     {
         "company_name": "Liberty First Credit Union",
@@ -359,15 +356,15 @@
     },
     {
         "company_name": "Liberty First Credit Union",
-        "User": "Sharon B",
+        "User": "customer",
         "localisation": "US",
-        "Titre": "Bank employees where very nice and…",
-        "commentaire": "Bank employees where very nice and helpfull",
+        "Titre": "Car loan",
+        "commentaire": "Had a wonderful experience getting a new car loan as well as refinancing my previous car loan. Interest rates can’t be beat!",
         "nombre_reviews": "1 review",
-        "date_experience": "October 07, 2024",
+        "date_experience": "September 21, 2024",
         "reply": {
-            "reply_text": "Thank you for the review. We are glad you had a good experience.",
-            "reply_date": "Thursday, October 24, 2024 at 06:16:58 PM"
+            "reply_text": "We are so happy to hear that you had a great experience. Thank you for being a member of Liberty First Credit Union!",
+            "reply_date": "Tuesday, October 1, 2024 at 05:14:11 PM"
         }
     },
     {
@@ -515,24 +512,11 @@
     },
     {
         "company_name": "GoHenry by Acorns",
-        "User": "Nancy Nicholson-Blount",
-        "localisation": "US",
-        "Titre": "GoHenry is a fantastic app for depositing money when your grandchildren do their chores.",
-        "commentaire": "I started accounts for my two grandsons. I had fun depositing money into GoHenry because if they did a chore correctly for papa and I we deposited money on their cards. we took them to different places like the Plymouth plantation and they could use their card for little souvenir to take home.",
-        "nombre_reviews": "8 reviews",
-        "date_experience": "November 07, 2024",
-        "reply": {
-            "reply_text": "Hi Nancy! Thanks so much for your kind words. We're so grateful to hear that you're loving GoHenry! - Stella",
-            "reply_date": "Thursday, November 7, 2024 at 08:56:35 AM"
-        }
-    },
-    {
-        "company_name": "GoHenry by Acorns",
         "User": "jason Oleffe",
         "localisation": "US",
         "Titre": "Because this is the best thing they…",
         "commentaire": "Because this is the best thing they ever came out with for kids my son loves this because he gets his own money when I get it and I put it in here so that way he has money to get what he wants",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 27, 2024",
         "reply": {
             "reply_text": "Hi Jason, thank you for your 5* review and feedback. We are very pleased to hear your son is loving GoHenry, and we hope he is benefitting from all the features we have available on the app, such as Money Missions! - Abbie",
@@ -545,7 +529,7 @@
         "localisation": "US",
         "Titre": "This is a great app because I can…",
         "commentaire": "This is a great app because I can monitor what when and where my son is able to spend his money on. He's learning and he loves the education that's available to him so that he can earn a little bit more. It teaches him responsibility and teaches him about investing for his future and, of course, saving. He really enjoys the lessons.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 13, 2024",
         "reply": {
             "reply_text": "Hi Rene, thank you so much for taking the time to leave us a 5 star review. We really appreicate the feedback and are glad to hear the app has proven to be useful to you and your child! - Inaaya 😊",
@@ -558,7 +542,7 @@
         "localisation": "US",
         "Titre": "So far so good",
         "commentaire": "So far so good, no complaints both kids have nobles and do check things out time to time but for 12 & 14 year old boys it’s great.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 24, 2024",
         "reply": {
             "reply_text": "Hi Michael, thank you for leaving a 5-star review, we greatly appreciate it! - Liam",
@@ -571,7 +555,7 @@
         "localisation": "US",
         "Titre": "Awful. Switching to Greenlight.",
         "commentaire": "A-W-F-U-L.\n\nThat's all i'm saying. Hi GoHenry, my name is Ethan and I recently got a card. Unfortunately, we have found out that you don't accept payments to my favorite store, XPlane.Org, because having a debit card is what I wanted. However-- when trying to get money OUT of the parent account and back onto a card, it is useless and once the money is in, it's in. They steal your money. So, I tried PayPal to pay my mom, and it said \"Declined because this store is not allowed.\" Like what the hell? Give us our money back so we can switch to Greenlight! Waste of money, time, and DO NOT use this app.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 17, 2024",
         "reply": {
             "reply_text": "Hi Ethan,\n\nThank you for taking the time to leave your review on Trustpilot. It is disheartening to hear that you are experiencing issues using the card to Xplane and PayPal. \n\nI was able to locate your account using the email address provided and reached out to the parent in the account with some information regarding the declines to XPlane and Paypal and also requested additional information.\n\nPlease can you kindly ask your parent to review the email sent and respond to it at their earliest convenience? \n\nI am sorry for any inconvenience this may have caused.\n\nMany thanks and I look forward to hearing from them with any questions and resolving any issue for you.\n\nSuvechha - GoHenry Supervisor",
@@ -584,7 +568,7 @@
         "localisation": "US",
         "Titre": "Empowering Financial Freedom for My Kids!",
         "commentaire": "I'm thrilled with GoHenry! This innovative app and card combination has revolutionized the way I manage my children's allowance and teach them valuable financial skills.\n\nGoHenry provides:\n\n•⁠ ⁠Easy money management\n•⁠ ⁠Customizable tasks and chores\n•⁠ ⁠Real-time spending updates\n•⁠ ⁠Secure, controlled environment\n\nThe app's intuitive design and features have given my kids financial freedom while educating them on responsible money management. I love watching them learn and grow.\n\nGoHenry offers priceless peace of mind, knowing my children are developing essential life skills. I highly recommend it to parents seeking a comprehensive, user-friendly solution for teaching financial literacy.\n\nRating Breakdown:\n\n•⁠ ⁠Ease of Use: 5/5\n•⁠ ⁠Features: 5/5\n•⁠ ⁠Security: 5/5\n•⁠ ⁠Value for Money: 5/5\n\nRecommendation: GoHenry is a must-have for parents wanting to raise financially savvy kids!",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "September 06, 2024",
         "reply": {
             "reply_text": "Hi Martha, thank you for taking the time to leave us a 5-star review. We are always pleased to hear lovely feedback from our customers. - Inaaya😊",
@@ -597,9 +581,12 @@
         "localisation": "US",
         "Titre": "Great to teach kids early how to manage…",
         "commentaire": "Great to teach kids early how to manage money",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 09, 2024",
-        "reply": null
+        "reply": {
+            "reply_text": "Hi Vanessa, thank you for your 5* review! We are happy to hear that you are enjoying the service! - Calumn",
+            "reply_date": "Thursday, November 14, 2024 at 12:04:33 PM"
+        }
     },
     {
         "company_name": "GoHenry by Acorns",
@@ -607,7 +594,7 @@
         "localisation": "US",
         "Titre": "Family management",
         "commentaire": "I am glad the app is available for my kids on this ages since now all will be more technology on which my kids use cellphones but managed with parental control. But this aloud us parents to control and give allowance when they do good. I love the idea thank you so much.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "July 01, 2024",
         "reply": {
             "reply_text": "Hi Hector! Thank you for the positive review! We always love to hear that our customers are benefiting from the GoHenry service and that we are able to assist with teaching children the value of money! - Megan",
@@ -620,7 +607,7 @@
         "localisation": "US",
         "Titre": "DO NOT TRUST \"BLOCK\" FEATURE",
         "commentaire": "We used GoHenry for our three kids personal debit accounts. We were getting charged ~$10/month for the service. At one point, I noticed an unapproved charge show up on one of the cards. I immediately went into the GoHenry app and used the \"block\" feature, which I thought would turn off the card to any further transactions. THIS DID NOTHING. Apparently, if it's a subscription fee certain vendors can get around GoHenry's feature and the charges kept accruing. At that point, I asked the GoHenry support to help remedy this and they basically told me I had to go fix it directly with the vendor. So - for $10/mo I was getting limited functionality to help when cards get lost or stolen and decided to cancel. I've now switched all kids accounts to \"custodial\" accounts at my normal bank (one of the top 5 U.S. banks) and they basically have all the same functionality, plus legitimate fraud claims departments. The additional setup with the bank was well worth the $120/year fee I was paying to GoHenry.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "September 29, 2024",
         "reply": {
             "reply_text": "I am sorry to hear about your experience when you noticed an unrecognised charge, I appreciate you contacted us to report this but felt the information provided was not satisfactory and therefore, led you to cancel your account and switch to another service.\n\nAs we are a financial service we cannot block retailers from taking payments in the same way a bank would be able to, therefore if a recurring payment or a subscription is set up on your child's account, we would first ask that you contact the retailer to cancel and resolve this, however, we do have an alternative process in place in case you are unable to reach out to the retailer and resolve the matter. I understand that this matter can be a cause for concern and we always try to assist our members with these cases as much as possible.\n\nI would like the opportunity to look into this further and assist you with this, however, as you have not provided Trustpilot with your email address, I have been unable to locate your account.\n\nPlease send us an email with the subject heading - \"FAO Supervisors - Issues\" to help@gohenrycard.com, from the email address you used to set up the account and one of our team will be in touch directly.\n\nThank you for bringing this to our attention and we look forward to hearing from you.\n\nMorgan - GoHenry Supervisor.",
@@ -633,7 +620,7 @@
         "localisation": "US",
         "Titre": "DO not use go Henry",
         "commentaire": "DO not use go Henry, when you have a problem they don't help and they steal your kids money. My sn saved all his money, we had zero issue until he wanted his money from go Henry, it's been a month and I can't get more than , we will call you back within 24 hours, that never comes. They won't give you a supervisor and I don't know what to do next.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "September 24, 2024",
         "reply": {
             "reply_text": "Hi Nickol\n\nThank you for leaving a 1* Review on Trust Pilot, Without these we cannot assist our members in resolving the issues and making GoHenry a better service for our members.\n\nI am disheartened to hear that you are having issues with your account and the refund for the account and to speak with a Supervisor.\n\nI have managed to locate your account using the details provided and I can see that you have been in contact already with one of our Supervisor team who is currently assisting with your query.\n\nHe has sent you a follow-up email with some additional information to your registered email address, Please may I ask that you review the email and as the case is now with the Supervisors, if you could reply to the email this will come directly to us.\n\nI am sorry for any inconvenience this may have caused.\n\nMany thanks and I look forward to hearing from you with any questions and resolving the issue for you.\n\nThanks\n\nCatherine - GoHenry Supervisor",
@@ -646,7 +633,7 @@
         "localisation": "US",
         "Titre": "We love it!",
         "commentaire": "This app makes financial learning fun for kids and adults! It is super user friendly and the customer service is the best I've ever experienced. They answered my phone call within minutes and were incredibly helpful!",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "August 30, 2024",
         "reply": {
             "reply_text": "Hi Victoria, thank you kindly for the 5-star review, we are so glad to hear you are enjoying the use of our services, and thank you also for sharing your experiences of interacting with our team, we are glad to hear this! - Liam",
@@ -659,7 +646,7 @@
         "localisation": "US",
         "Titre": "The simple",
         "commentaire": "It's simple to use for myself and my children. It's convienent with teaching them how to manage their money and how to prioritize things that are important (Needs v Wants)",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "September 15, 2024",
         "reply": {
             "reply_text": "Hi Sean! What a fantastic review. Thanks for sharing! - Stella😊",
@@ -672,7 +659,7 @@
         "localisation": "US",
         "Titre": "Awesome idea",
         "commentaire": "Awesome idea! Great way to spend money and cards for birthdays!!!🎉🎉🎉🎈🎂🍧🎁",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 02, 2024",
         "reply": {
             "reply_text": "Hi Wendy! We're glad you're finding GoHenry a useful tool. This is exactly what we aim to do so that children are able to learn how to manage their finances in a safe and secure way. Thank you for your feedback and feel free to get in touch if there's anything we can help with. Have a great day! - Megan",
@@ -685,7 +672,7 @@
         "localisation": "US",
         "Titre": "Motivate your kids, build healthy habits",
         "commentaire": "GoHenry is an amazing app that allows you to help your children build healthy financial habits and makes motivating chores and tasks of breeze",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "September 26, 2024",
         "reply": {
             "reply_text": "Hi Justin, Thank you for your 5* Review! We are so pleased to hear that you and your family are loving Gohenry. - Mya",
@@ -698,7 +685,7 @@
         "localisation": "US",
         "Titre": "GoHenry is a good way to educate money management …",
         "commentaire": "GoHenry is helping me daughter learn to value of money and to save for the things she rally wants. She is becoming very frugal and deciding if what she wants is worth the price.\nGoHenery also gives parents a lot of control of how much they can spend and where they can spend, meaning parents have to give permission for the child to shop on the internet.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "June 22, 2024",
         "reply": {
             "reply_text": "Thanks for taking the time to leave a 5* review! We're happy to hear that your daughter is learning a lot about money and that you're able to manage everything easily now! We're thrilled to have you both with us. - Dan",
@@ -711,7 +698,7 @@
         "localisation": "US",
         "Titre": "My nephew is in love with GOHenry!",
         "commentaire": "My nephew is growing his piggy bank and spending as he pleases, even though there was one hiccup when he tried to buy something and there wasn’t quite enough loaded onto his debit (only a few cents off, he was on a field trip and forgot that he had cash too, obviously not the app’s fault)!\n\nThe app alerted me about the “hiccup” and I adjusted his monthly payment accordingly. It’s been extremely exciting and useful. Thank you so much!",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "June 02, 2024",
         "reply": {
             "reply_text": "Hi Holly, thank you so much for your 5* review. We're happy to hear you and your nephew are enjoying our service! - Emily",
@@ -724,7 +711,7 @@
         "localisation": "US",
         "Titre": "My daughter's first day of school with…",
         "commentaire": "My daughter's first day of school with her card, tried using it at a vending machine and the school registers. But for whatever reason it kept declining. There's money on her card and it's not locked. Trying to figure out what the problem maybe before cancelling, I do not like the idea that she wouldn't be able to eat, because their school is card or apple pay. It's this doesn't work, I think I'll have to do apple pay. I wanted her to get used to using a card feeling more responsibility for herself in budgeting and saving money.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "August 15, 2024",
         "reply": {
             "reply_text": "Hi Orlanda,\n\nThank you for leaving a 1* Review on Trust Pilot, Without these we cannot assist our members in resolving the issues and making GoHenry a better service for our members.\n\nI am disheartened to hear that you have experienced issues with card usage, this is certainly not an experience we would want for our members.\n\nI would like the opportunity to assist you with this, however, as I was unable to locate your email address, therefore, unable to locate your account.\n\nFor us to help you ASAP, can you please confirm your contact details on Trust Pilot or pop over an email with the subject heading - \"FAO Supervisors - Issues\" to help@gohenrycard.com,\n\nI am sorry for any inconvenience this may have caused.\n\nMany thanks and I look forward to hearing from you.\n\nSuvechha - GoHenry Supervisor",
@@ -737,7 +724,7 @@
         "localisation": "US",
         "Titre": "5-star money management",
         "commentaire": "The access to saving and money transferring helped my organization a lot.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 01, 2024",
         "reply": {
             "reply_text": "Hi Austin! Thanks so much for the feedback! So happy to hear that. - Stella",
@@ -750,7 +737,7 @@
         "localisation": "US",
         "Titre": "Thanks A Million for services with this…",
         "commentaire": "Thanks A Million for services with this Go Henry Card . My granddaughters were able to use their card when we were on vacation at “ Six Flag Park Over Texas in Arlington Texas between Dallas Tx & Forth Worth Texas. We use it for Uber Returns Trip Back Home to ride the train & bus and snack on June 22, 2024 back to Baytown Tx",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "June 22, 2024",
         "reply": {
             "reply_text": "Hi Moneek, thank you for sharing your experience with GoHenry. We are so pleased to hear of your review and first 5* rating! - Suvechha 😊",
@@ -763,11 +750,89 @@
         "localisation": "US",
         "Titre": "This has been an excellent way to teach…",
         "commentaire": "This has been an excellent way to teach my niece and nephew about handing/ saving money.",
-        "nombre_reviews": "8 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 03, 2024",
         "reply": {
             "reply_text": "Hi Kelle, thank you for your positive review and for sharing your experience. We are so pleased to read this. - Suvechha",
             "reply_date": "Thursday, October 3, 2024 at 05:49:50 PM"
+        }
+    },
+    {
+        "company_name": "GoHenry by Acorns",
+        "User": "John",
+        "localisation": "US",
+        "Titre": "It's a great use of technology",
+        "commentaire": "It's a great use of technology. It has motivated our kids to do chores around the house, learn about finances (which our public school system doesn't even touch until Junior year of high school), helps the kids learn responsibility, and the debit card is a convenient way to enable our kids to have money when they need it.",
+        "nombre_reviews": "1 review",
+        "date_experience": "June 25, 2024",
+        "reply": {
+            "reply_text": "Hey John, thankyou for taking the time to leave us a 5* review! We're happy to hear you're just as excited about the service as we are, and we're thrilled to have you all with us! - Dan",
+            "reply_date": "Monday, July 8, 2024 at 02:38:41 PM"
+        }
+    },
+    {
+        "company_name": "Crypto Dispensers",
+        "User": "Mark A. Cohen",
+        "localisation": "US",
+        "Titre": "This company is very easy to use",
+        "commentaire": "This company is very easy to use. The transaction was quick, easy and seamless. The funds I deposited arrived in my CryptoDispensers account beforeI got home from the deposit location ( a 2 minute drive). I then used those funds to buy BTC, and it arrived in my wallet within 3 minutes - much faster than any other transfer of bTC that I have experienced anywhere else.",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "November 14, 2024",
+        "reply": {
+            "reply_text": "Dear Mark A. Cohen,\n\nThank you so much for your fantastic 5-star review! We’re thrilled to hear that you found Crypto Dispensers so easy to use and that our platform exceeded your expectations in terms of speed and convenience. Your experience highlights everything we strive to achieve—quick, seamless transactions that make buying Bitcoin and managing cryptocurrency hassle-free.\n\nIt’s wonderful to know that the deposit process was not only smooth but so fast that the funds reached your account in record time—faster than your two-minute drive home! Our CDReload service is designed specifically to provide users with a quick and reliable way to deposit cash at over 16,000 retail locations across the country, and it’s fantastic to see that this feature worked so well for you. We know how important it is for our users to have access to their funds quickly, so we’ve optimized every part of the process to get you from deposit to Bitcoin ownership as efficiently as possible.\n\nWe’re equally thrilled to hear that your Bitcoin transfer to your wallet was completed in just three minutes, even faster than your previous experiences with other exchanges and wallets. At Crypto Dispensers, we prioritize speed and security, ensuring that our users can access their Bitcoin immediately after purchase without lengthy delays. Your feedback reaffirms our commitment to delivering a best-in-class experience that’s both trustworthy and lightning-fast.\n\nThank you again for sharing your experience and for choosing Crypto Dispensers as your preferred platform for buying Bitcoin. We’re honored to have earned your trust, and we look forward to continuing to provide the seamless and efficient service you enjoyed. If there’s anything more we can do to enhance your experience or if you ever have questions, please don’t hesitate to reach out—our 24/7 support team is always here to help.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 05:37:16 PM"
+        }
+    },
+    {
+        "company_name": "Crypto Dispensers",
+        "User": "Mike Ooreyzi",
+        "localisation": "US",
+        "Titre": "Crypto Dispensers was absolutely…",
+        "commentaire": "Crypto Dispensers was absolutely amazing in both simplicity and ease of use throughout the entire process from point A to point B\nStarting and ending was so much more faster than anyone else on online platform exchanges/crypto wallets. I really recommend checking them out if you’re interested in learning more about crypto currencies and successfully making the best decision for yourself! I definitely like the concept and the idea of using the various process provided to purchase bitcoin and possibly other cryptocurrencies in the near future as I was told so!\n⭐️⭐️⭐️⭐️⭐️ CRYPTO DISPENSERS ✅DESERVE👍🏼✅",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "August 02, 2024",
+        "reply": {
+            "reply_text": "Dear Mike,\n\nThank you so much for your incredible 5-star review! We’re absolutely thrilled to hear that your experience with Crypto Dispensers exceeded expectations in both simplicity and ease of use. Your kind words about the efficiency of our platform, from start to finish, mean a great deal to us, as we strive to make every step of the process as smooth and user-friendly as possible.\n\nAt Crypto Dispensers, we know that entering the world of cryptocurrency can feel overwhelming, which is why our goal is to simplify each stage—from registration and depositing funds to securely purchasing Bitcoin. Hearing that our platform was faster and easier for you compared to other online exchanges and crypto wallets truly validates our commitment to providing a streamlined experience for all users, whether they’re beginners or experienced investors.\n\nWe’re also excited that you’re exploring the potential of cryptocurrencies beyond Bitcoin and looking forward to using our platform for future investments. At Crypto Dispensers, we’re dedicated to continuous improvement and expansion, and it’s our aim to introduce even more cryptocurrency options so that users like yourself can build and diversify their portfolios conveniently.\n\nYour recommendation for others to “check us out” is immensely appreciated. The fact that you enjoyed the process and believe in what we offer speaks volumes to our mission of making cryptocurrency accessible to everyone. We’re here not only to facilitate transactions but also to support our users in making informed, confident decisions in their crypto journey.\n\nThank you once again for your enthusiastic support and for choosing Crypto Dispensers as your platform of choice. If there’s ever anything more we can do to enhance your experience or assist with future transactions, please don’t hesitate to reach out. Our team is always here to help every step of the way, ensuring that your experience remains top-notch.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 03:33:17 PM"
+        }
+    },
+    {
+        "company_name": "Crypto Dispensers",
+        "User": "Love Is Luck Luck Is Love",
+        "localisation": "US",
+        "Titre": "Company says it's offline after deposit",
+        "commentaire": "Company says it's offline when attempting to contact them. I would have just waited until the next morning to send the money to my trading account. Life is hard enough to be going without money that I expected to be sent immediately. No contact from support. Can't even buy directly with my cdreload or whatever. Nothing. They just have my food money on hold. Not acceptable.",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "November 09, 2024",
+        "reply": {
+            "reply_text": "Dear Love Is Luck Luck Is Love,\n\nThank you for sharing your experience, and we apologize for the frustration you've encountered. At Crypto Dispensers, we take every transaction and each user’s experience very seriously, and we understand how essential it is for you to receive timely access to your funds. We want to address your concerns in detail and provide some clarification on how our process works, especially regarding transaction timing, support availability, and the reliability of our CDReload service.\n\nFirst, we want to assure you that Crypto Dispensers operates with transparency, integrity, and a dedication to customer satisfaction. Your funds are secure with us, and it is never our intention to delay or disrupt anyone’s financial plans. Our goal is to provide a seamless and reliable platform for buying Bitcoin and other cryptocurrencies, including cash deposits via CDReload, so that users can enjoy the flexibility of real-world and digital transactions combined.\n\nRegarding your concern about availability, our customer support team is available 24/7 to assist with any issues or questions you may have. While we strive to be as responsive as possible, there may be rare occasions where responses are slightly delayed due to high volumes or system checks required to ensure your security. However, we are fully committed to providing consistent support and guidance for every user, whether it’s troubleshooting an issue, following up on transactions, or helping users access their funds. If you were unable to reach us, please accept our apologies and feel free to reach out directly to help@cryptodispensers.com, where our support team is ready to provide personalized assistance.\n\nWe also understand how essential it is for funds to be accessible as quickly as possible. Our CDReload service, which allows users to deposit cash at over 16,000 retail locations, is designed to offer a fast and convenient way to add funds to your Crypto Dispensers account. Typically, these deposits are credited quickly; however, occasional delays may occur due to network congestion, third-party retail processing, or verification requirements. These measures are in place to protect your account and ensure the integrity of every transaction. We understand that unexpected delays can be disruptive, and we’re here to help you navigate any issues that arise.\n\nFor anyone reading this, please know that Crypto Dispensers is committed to providing a secure, reliable, and user-friendly experience. Our platform is designed to allow easy access to cryptocurrency while maintaining high standards for security and service. We understand that your trust is crucial, and we work diligently to uphold it in everything we do. Our 24/7 support team is always available to provide real-time updates and ensure any issues are resolved as quickly as possible.\n\nAgain, we apologize for any inconvenience you experienced. We value your feedback and are grateful for the opportunity to address your concerns and improve our service. If there’s anything more we can do to assist you, please reach out to us directly—we’re here to help and make sure your experience with Crypto Dispensers is a positive one.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 03:34:37 PM"
+        }
+    },
+    {
+        "company_name": "Crypto Dispensers",
+        "User": "Ny crypto",
+        "localisation": "US",
+        "Titre": "There are better options out there",
+        "commentaire": "CD is a shady company, they will pay you for good reviews. $25 to be exact, believe the low star reviews before the high ones. I have been scammed by them and anyone who wants proof just reach out . CD IS A SHAM",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "November 03, 2024",
+        "reply": {
+            "reply_text": "Dear Ny crypto,\n\nThank you for sharing your feedback. We’re genuinely disappointed to see claims that do not reflect our commitment to integrity, transparency, and customer satisfaction at Crypto Dispensers. We are a trusted, customer-centered platform, and it’s crucial for us to address and clarify any misinformation for the benefit of all readers.\n\nFirst, we want to state clearly: Crypto Dispensers does not \"pay\" for reviews. Our positive reviews reflect the real experiences of our users who value our secure and reliable service for purchasing and managing cryptocurrency. We take pride in the level of trust our community has placed in us, which is earned through dedication, responsive customer support, and a commitment to excellence in every transaction. Any suggestions otherwise are entirely untrue and do not align with our core values.\n\nWe understand that some users may face challenges, and it’s normal for occasional misunderstandings to arise in the world of cryptocurrency. We encourage anyone who has questions or needs assistance to reach out to our 24/7 customer support team. Our team is dedicated to promptly addressing any concerns, guiding users through the process, and ensuring that every transaction is secure and transparent.\n\nTo any readers reviewing this comment, please know that Crypto Dispensers operates with complete transparency and a deep commitment to customer satisfaction. Every interaction is carefully monitored to ensure that our users have a smooth, reliable experience. We welcome honest feedback, as it helps us grow and improve our services, but we stand firm against unfounded accusations that do not align with our established reputation.\n\nIf there was a specific issue that you encountered, we would be more than happy to assist in resolving it. We encourage you to contact us directly at help@cryptodispensers.com so that we can provide the assistance needed.\n\nThank you for giving us the opportunity to clarify these points. We remain committed to serving our customers with the highest standards of integrity and service.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 03:28:11 PM"
+        }
+    },
+    {
+        "company_name": "Crypto Dispensers",
+        "User": "De",
+        "localisation": "CA",
+        "Titre": "They will take your money and won’t…",
+        "commentaire": "They will take your money and won’t send the btc. Even though they say it’s initiated ,4 days later 0.0000 BTC balance! Please elaborate crypto dispenser?",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "October 24, 2024",
+        "reply": {
+            "reply_text": "Dear De,\n\nThank you for sharing your experience with us. We take every user’s feedback to heart, and we are grateful for the opportunity to address and resolve your issue. We are pleased to confirm that your BTC transaction has now been processed, and your balance should be visible in your wallet. If, for any reason, you still don’t see the funds reflected, please don’t hesitate to reach out directly to us at help@cryptodispensers.com, and our support team will be more than happy to assist you immediately.\n\nWe understand the importance of a smooth and reliable transaction experience, especially in the world of cryptocurrency, and we apologize for any inconvenience you may have experienced. Our goal is to uphold the highest standards of service and responsiveness, and we are constantly working to ensure that every interaction with our platform is as seamless and timely as possible.\n\nIf you feel that our resolution meets your expectations, we would greatly appreciate it if you would consider updating your review to reflect the positive outcome. Your updated feedback would help reassure others of our commitment to prompt, attentive support and our dedication to resolving issues efficiently. Every review helps us learn, grow, and continue to provide the level of service our users deserve.\n\nFor those reading this, we want to emphasize that at Crypto Dispensers, our customer support team is available 24/7 to ensure that every user’s needs are met. From providing real-time updates to resolving issues, we prioritize clear communication and prompt follow-up so that each transaction is as smooth and secure as possible. We take pride in delivering a trustworthy and transparent service and are committed to maintaining that standard across all interactions.\n\nThank you once again for your patience and understanding, and for giving us the chance to support you on your cryptocurrency journey. If there’s anything further we can do to enhance your experience, please don’t hesitate to reach out.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 03:26:46 PM"
         }
     },
     {
@@ -776,7 +841,7 @@
         "localisation": "US",
         "Titre": "Crypto Dispensers are the Best!",
         "commentaire": "Crypto Dispensers have been a wonderful crypto exchange. I’ve never experienced anywhere else that makes purchasing BTC so easy and stress free. Also they are the first exchange that I have come across that allows you to deposit paper money to you account. I think that alone is the best feature I have ever seen! Keep up the great work guys!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "November 04, 2024",
         "reply": {
             "reply_text": "Dear Nathaniel,\n\nThank you so much for your amazing 5-star review! We’re absolutely thrilled to hear that you consider Crypto Dispensers the best and that your experience with our platform has been so positive. Knowing that we’ve made buying Bitcoin easy and stress-free for you is incredibly rewarding, as we’re committed to providing exactly that level of convenience and reliability.\n\nWe’re especially glad to hear how much you appreciate our unique cash deposit feature! With our CDReload service, we’re proud to offer the ability to deposit paper money at over 16,000 retail locations across the country, including places like CVS and Rite Aid. We designed this feature to bridge the gap between traditional currency and digital assets, making it easier than ever for users to enter the world of cryptocurrency. It’s wonderful to know that this option has stood out to you as one of the best features you’ve encountered.\n\nAt Crypto Dispensers, we strive to make cryptocurrency accessible, user-friendly, and secure. Your feedback affirms that we’re achieving our mission, and we’re so grateful for your support and encouragement. Thank you for trusting us with your Bitcoin purchases and for sharing your positive experience with others.\n\nIf there’s ever anything more we can do to make your experience even better, please don’t hesitate to reach out. We’re here to support you every step of the way, and we look forward to continuing to provide the exceptional service you’ve come to expect from Crypto Dispensers.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
@@ -785,24 +850,11 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "Duane",
-        "localisation": "US",
-        "Titre": "Customer service is very good 👍 They…",
-        "commentaire": "Very patient. Answer any questions, pertaining to the Crypto Dispenser Platform.",
-        "nombre_reviews": "1 review",
-        "date_experience": "November 07, 2024",
-        "reply": {
-            "reply_text": "Dear Duane,\n\nThank you so much for your 5-star review! We’re delighted to hear that you had such a positive experience with our customer service team. Providing patient, thorough, and informative support is a core value at Crypto Dispensers, and we’re thrilled to know that our team met your expectations.\n\nAt Crypto Dispensers, we understand how important it is for our users to feel confident and well-informed when navigating the platform. Whether you're new to the world of cryptocurrency or an experienced user, our team is dedicated to answering any questions you have and guiding you through each step of your journey. Your kind words about our service confirm that we’re achieving our goal of delivering reliable and patient support.\n\nYour trust and satisfaction are what motivate us to keep striving for excellence. We take pride in not just offering a platform to buy Bitcoin and other cryptocurrencies, but also in providing a level of service that ensures a seamless and stress-free experience for every user.\n\nThank you again for your feedback and for choosing Crypto Dispensers. If there’s anything more we can do to enhance your experience or if you have further questions, please don’t hesitate to reach out. We’re here to help every step of the way and ensure that your crypto journey is as smooth and enjoyable as possible.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Saturday, November 9, 2024 at 09:06:13 PM"
-        }
-    },
-    {
-        "company_name": "Crypto Dispensers",
         "User": "Carol Martin",
         "localisation": "US",
         "Titre": "Excellent customer service",
         "commentaire": "I have used Crypto Dispensers 3 times. Each time, i was treated professionally and was given complete information each step of the way, by email and by phone. The follow-up was also great. I will do all future crypto business with Crypto Dispensers!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "October 22, 2024",
         "reply": {
             "reply_text": "Dear Carol,\n\nThank you so much for your fantastic 5-star review! We're thrilled to hear that you've chosen Crypto Dispensers for your cryptocurrency needs not just once, but three times—and that each experience has been excellent. Knowing that our team provided you with professional, thorough service each step of the way means a great deal to us.\n\nAt Crypto Dispensers, exceptional customer service is one of our core values. We understand how important it is for every user to feel fully informed and supported throughout their cryptocurrency journey, whether you’re buying Bitcoin or exploring our other services. It’s wonderful to hear that our team was able to guide you through each transaction, providing clear information both by email and over the phone. Our goal is to make every interaction seamless and reassuring, and we're glad to know that the follow-up communications added to your positive experience.\n\nWe’re honored to have earned your loyalty, and it’s incredibly rewarding to know that you plan to do all your future crypto business with us. Building long-term trust with our customers is what drives us to keep improving and refining our services, ensuring a smooth and reliable experience for every user. From fast transactions to our dedicated support team, we’re here to make your cryptocurrency journey as easy and transparent as possible.\n\nThank you once again for your trust and for sharing your experience with us. Your feedback inspires us to keep delivering top-notch service, and we look forward to continuing to support you in all your future crypto endeavors. If there’s anything more we can do to enhance your experience or assist you further, please don’t hesitate to reach out—our team is always here to help every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
@@ -815,7 +867,7 @@
         "localisation": "US",
         "Titre": "I have to say",
         "commentaire": "I have to say, whenever I am able to exchange words with the team at CryptoDispensers, they exemplify what it means to show world class service WITHOUT FAIL. They offer a great product with an amazing bonus and it pays out as promised, instantly once the transaction is confirmed in the blockchain. That being said I used to have an issue showing up to work at time or at all and my boss told me \"Cody, when you're here, you're amazing, but you're never here!\" It feels like only on a harvest moon the third Tuesday of winter solstice is when you can exchange a few emails from one of the (again world class, outstanding) team members and the stars have aligned and things are as they should be. But until then, their chatbot leaves much to be desired. Clearly I have too much time on my hands haha, I'm wanting to refer them to everyone and their mother and so far I have 5 referrals, 2 that have deposited successfully and 3 that haven't. I've gotten referral credit for one thus far and its my understanding they were still in the process of rolling out the program ( as generous as the sign up bonus itself there are only winners here!) I have faith that it'll work out, and actually Im changing to 5 stars in good faith because idk whats going on behind the scenes but every interaction has been great so thank you thank you.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "October 28, 2024",
         "reply": {
             "reply_text": "Dear Cody,\n\nThank you for such a detailed and wonderfully unique review! We’re absolutely thrilled to know that you’ve had such positive interactions with our team and that our service has made a memorable impression. Your acknowledgment of our team as world-class truly means a lot to us. Our goal is to provide not only an exceptional product but also the best possible support, and we’re so glad to hear that we’re meeting those expectations whenever the stars align!\n\nWe understand your perspective on the availability of our support team and appreciate your patience with our chatbot. While our live support team does its best to provide a responsive and helpful experience, we’re continuously working behind the scenes to make it even better. Your feedback on this is truly valuable, and we’re actively making improvements to expand availability so that world-class service feels just a bit closer than a “harvest moon.”\n\nThank you as well for your referrals—your enthusiasm and faith in our product mean everything to us! The referral program is indeed in the process of full rollout, and we’re committed to ensuring all referral credits are accurately processed. Your support and patience as we finalize these details are greatly appreciated, and we’re delighted that you’re already seeing the benefits from the program.\n\nYour faith in us and your wonderful review inspire us to continue improving and providing the best possible experience. We’re honored to have you as a customer and look forward to keeping every interaction as exceptional as possible.\n\nThank you again, Cody, for being such a fantastic part of the Crypto Dispensers community. If there’s ever anything more we can do for you, please don’t hesitate to reach out. Our team is here to help every step of the way.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
@@ -824,15 +876,15 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "Michael Riley",
+        "User": "Duane",
         "localisation": "US",
-        "Titre": "Crypto dispensary has been a wonderful…",
-        "commentaire": "Crypto dispensary has been a wonderful exchange to use they are very quick in the transfer from purchasing BTC to it being available in your wallet and the added benefit of being able to go into a place of business and hand them cash to put into your wallet I think it was one of the best features that I lately with crypto exchanges",
-        "nombre_reviews": "1 review",
-        "date_experience": "November 02, 2024",
+        "Titre": "Customer service is very good 👍 They…",
+        "commentaire": "Very patient. Answer any questions, pertaining to the Crypto Dispenser Platform.",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "November 07, 2024",
         "reply": {
-            "reply_text": "Dear Michael,\n\nThank you for your wonderful 5-star review! We’re delighted to hear that you’ve had such a positive experience with Crypto Dispensers. It’s fantastic to know that our platform has provided the speed, ease, and unique features you’ve been looking for in a cryptocurrency exchange.\n\nOne of our top priorities is ensuring that your Bitcoin transactions are fast and reliable, so we're thrilled to hear that you appreciated the quick transfer times from purchase to wallet availability. We understand how valuable prompt access to your funds is, and we’re committed to providing the kind of efficiency that sets us apart from other exchanges.\n\nWe’re especially glad that you find our CDReload service valuable, which lets you walk into over 16,000 retail locations and deposit cash directly into your Crypto Dispensers wallet. This feature was designed for users who want the flexibility of in-person cash transactions while enjoying the convenience of instant digital access. We believe that this “best of both worlds” approach is essential for making cryptocurrency accessible to everyone, regardless of their payment preferences.\n\nYour feedback highlights exactly what we aim to provide—a secure, accessible, and efficient way to buy and manage Bitcoin, all with the added benefit of a user-friendly cash deposit option. Thank you again for sharing your experience with us and for choosing Crypto Dispensers as your trusted platform. We look forward to supporting you in all your future cryptocurrency transactions!\n\nIf there’s ever anything more we can do to enhance your experience or if you have any questions, please don’t hesitate to reach out. Our team is always here to help.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Monday, November 4, 2024 at 10:39:45 PM"
+            "reply_text": "Dear Duane,\n\nThank you so much for your 5-star review! We’re delighted to hear that you had such a positive experience with our customer service team. Providing patient, thorough, and informative support is a core value at Crypto Dispensers, and we’re thrilled to know that our team met your expectations.\n\nAt Crypto Dispensers, we understand how important it is for our users to feel confident and well-informed when navigating the platform. Whether you're new to the world of cryptocurrency or an experienced user, our team is dedicated to answering any questions you have and guiding you through each step of your journey. Your kind words about our service confirm that we’re achieving our goal of delivering reliable and patient support.\n\nYour trust and satisfaction are what motivate us to keep striving for excellence. We take pride in not just offering a platform to buy Bitcoin and other cryptocurrencies, but also in providing a level of service that ensures a seamless and stress-free experience for every user.\n\nThank you again for your feedback and for choosing Crypto Dispensers. If there’s anything more we can do to enhance your experience or if you have further questions, please don’t hesitate to reach out. We’re here to help every step of the way and ensure that your crypto journey is as smooth and enjoyable as possible.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Saturday, November 9, 2024 at 09:06:13 PM"
         }
     },
     {
@@ -841,7 +893,7 @@
         "localisation": "US",
         "Titre": "great overall service the agents are…",
         "commentaire": "great overall service the agents are very helpful and they process transactions instantly. low fees and best in class service.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "October 18, 2024",
         "reply": {
             "reply_text": "Dear Jaime,\n\nThank you so much for your outstanding 5-star review! We're absolutely delighted to hear that your experience with Crypto Dispensers was so positive. Your kind words about our overall service, helpful agents, and instant transaction processing truly mean the world to us. It’s feedback like yours that drives us to continually improve and deliver the best possible experience for our users.\n\nAt Crypto Dispensers, we believe that fast, secure, and seamless transactions are the foundation of a great cryptocurrency platform. That’s why we’ve worked tirelessly to ensure that every transaction you make, whether you’re buying Bitcoin or using our CDReload service, is processed quickly and efficiently. Knowing that you found our transactions to be instant and hassle-free confirms that we’re on the right track.\n\nBut we don't just stop at transaction speed. Our dedicated customer support team is here to provide personalized, attentive service to ensure every question you have is answered. We’re thrilled to hear that our agents were able to assist you in a helpful and timely manner. At Crypto Dispensers, we understand that navigating the world of cryptocurrency can sometimes feel overwhelming, which is why we prioritize clear communication and support to guide you every step of the way.\n\nYou also mentioned our low fees, and we’re proud to offer one of the most competitive fee structures in the industry. We understand how important cost-effectiveness is, especially when dealing with cryptocurrency transactions, so we’ve made it a priority to keep fees low without compromising the security and speed of our services. We’re glad that you found our platform to be not only affordable but also the best in class for cryptocurrency transactions.\n\nYour feedback is a testament to the quality of service we strive to offer, and we couldn’t be more grateful for your trust and recommendation. At Crypto Dispensers, we are committed to maintaining a platform where every user can easily, securely, and affordably manage their cryptocurrency transactions, and your experience shows that we’re succeeding in that mission.\n\nThank you once again for your support and for choosing Crypto Dispensers as your go-to platform for buying Bitcoin and other cryptocurrencies. If there’s anything else we can do to enhance your experience or if you have any further questions, please don’t hesitate to reach out. Our team is always here to assist you and ensure that every interaction with Crypto Dispensers is as seamless and positive as your last.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
@@ -850,28 +902,28 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "customer",
+        "User": "rick",
         "localisation": "US",
-        "Titre": "Crypto dispensers is a fast and easy…",
-        "commentaire": "Crypto dispensers is a fast and easy way to purchase crypto. I love the changes they’ve made and the referral bonus is a great incentive. I will continue to refer friends to this platform!\n\nUpdate:\n\nSince leaving a positive review Crypto Dispensers has ignored my recent support tickets. They advertised bonus for my deposit but didn’t follow through. The bonus was supposed to be credited immediately but nothing was added to my account. Upon reaching out, no one has responded in over 5 days. Now I regret making a large deposit and paying the unnecessary fees. It seems like their customer service has returned back to their old unresponsive ways!",
-        "nombre_reviews": "1 review",
-        "date_experience": "July 31, 2024",
+        "Titre": "Stay away",
+        "commentaire": "Bought btc 8 hours ago and still nothing….",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "October 05, 2024",
         "reply": {
-            "reply_text": "Dear Customer,\n\nThank you so much for your fantastic 5-star review! We’re delighted to hear that you find Crypto Dispensers a fast and easy way to purchase crypto. It’s incredibly rewarding to know that our recent changes have enhanced your experience and that you appreciate the referral bonus as a great incentive.\n\nAt Crypto Dispensers, we’re committed to continuously improving our platform to make your cryptocurrency transactions as seamless and straightforward as possible. Your satisfaction is our top priority, and it’s wonderful to hear that the updates we’ve implemented have made a positive impact on your experience.\n\nWe’re especially pleased that you’re enjoying our referral program. Referrals are one of the highest compliments we can receive, and we’re thrilled that you’re eager to share Crypto Dispensers with your friends. Our goal is to reward our loyal users like you with incentives that make your crypto journey even more rewarding.\n\nOur CDReload service, available at over 16,000 major retail locations nationwide, makes buying Bitcoin with cash quick and convenient. Whether you’re a seasoned investor or new to the crypto world, we strive to offer an accessible and user-friendly experience that meets all your needs.\n\nYour positive feedback inspires us to keep improving and innovating. We are dedicated to enhancing our platform and finding new ways for you and your friends to benefit from using Crypto Dispensers.\n\nThank you once again for your trust, your referrals, and for choosing Crypto Dispensers. We look forward to continuing to support you in your cryptocurrency journey and ensuring that each experience is as positive and rewarding as the last.\n\nIf there’s anything more we can do to enhance your experience or assist you further, please don’t hesitate to reach out. Our team is always here to help you every step of the way.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Monday, August 19, 2024 at 04:41:06 PM"
+            "reply_text": "Dear Rick,\n\nThank you for reaching out and sharing your feedback. We understand how essential it is for you to receive your Bitcoin in a timely manner, and we’re here to ensure that every step of your transaction is as smooth as possible. First, please let us assure you that we’ve taken care of this issue, and your BTC should now be fully available in your wallet. If, by chance, you’re still not seeing it, please don’t hesitate to contact us at help@cryptodispensers.com so that we can assist you immediately.\n\nAt Crypto Dispensers, we prioritize efficiency, security, and transparency in all transactions. While our processing times are generally quick, there are rare instances when factors like network congestion, blockchain verification processes, or security checks may slightly delay the process. These steps are in place to ensure your transaction is as secure and accurate as possible, and we continuously monitor each transaction to minimize any disruption to your experience.\n\nOur support team operates around the clock, and we are fully committed to making sure that each transaction is successful and each user’s experience is positive. If you encounter any unexpected issues or have questions about your transaction, please know that our 24/7 customer support team is here to provide real-time assistance. Our team is dedicated to making sure you feel fully informed and supported, and we’re always ready to step in with immediate solutions.\n\nFor anyone reading this, please know that Crypto Dispensers takes great pride in upholding the highest standards of service. Our platform is designed to provide a seamless experience for buying and managing Bitcoin and other cryptocurrencies. In cases where transactions take longer than expected, we work diligently to resolve the issue as quickly as possible and ensure users receive the timely service they deserve.\n\nThank you again for sharing your feedback and giving us the chance to address your concern. Your satisfaction is incredibly important to us, and we’re grateful for your patience and understanding as we worked through this. If there is anything further we can do to improve your experience or answer additional questions, please don’t hesitate to reach out—we’re here to assist you every step of the way.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Thursday, November 14, 2024 at 03:32:13 PM"
         }
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "rick",
+        "User": "Michael Riley",
         "localisation": "US",
-        "Titre": "Don’t give them a chance",
-        "commentaire": "They are scams. They buy their reviews. They pay 10$ per good review. Don’t deposit with them because your money will be gone.",
-        "nombre_reviews": "1 review",
-        "date_experience": "October 05, 2024",
+        "Titre": "Crypto dispensary has been a wonderful…",
+        "commentaire": "Crypto dispensary has been a wonderful exchange to use they are very quick in the transfer from purchasing BTC to it being available in your wallet and the added benefit of being able to go into a place of business and hand them cash to put into your wallet I think it was one of the best features that I lately with crypto exchanges",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "November 02, 2024",
         "reply": {
-            "reply_text": "Dear Rick,\n\nLet’s get straight to the point: your review is not only completely false, but it’s also an attempt to smear a company built on transparency, trust, and excellent service. At Crypto Dispensers, we pride ourselves on the integrity of our platform, and we absolutely do not buy reviews. Our real users, who have successfully used our services to buy Bitcoin, provide honest feedback because they appreciate the secure, fast, and seamless experience we offer—nothing more, nothing less.\n\nYour accusation about users' money \"being gone\" is not only inaccurate but completely irresponsible. We’ve been in the business of helping people buy Bitcoin and manage their cryptocurrency efficiently, securely, and with confidence. We have countless satisfied users to back that up, not to mention our CDReload service, which allows users to deposit cash at over 16,000 retail locations nationwide. Every transaction is transparent and trackable, and we work hard to ensure every user is satisfied.\nThrowing around baseless accusations like \"scam\" only exposes a lack of understanding of how our service actually works. If you’re upset about something specific, we’re more than happy to address it. But don’t try to tarnish the reputation of a platform that thousands of users trust with their cryptocurrency needs, just because you didn’t take the time to properly reach out to us with any concerns.\n\nTo all readers: Crypto Dispensers is a trusted service provider. We stand behind our reputation, our commitment to excellence, and our dedication to providing secure and reliable cryptocurrency transactions.\n\nWe encourage everyone to experience our platform for themselves, as it is built on the foundation of integrity, transparency, and user satisfaction. To the reviewer—next time, do better research before throwing out wild claims.\n\nSincerely,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Thursday, October 17, 2024 at 09:45:20 PM"
+            "reply_text": "Dear Michael,\n\nThank you for your wonderful 5-star review! We’re delighted to hear that you’ve had such a positive experience with Crypto Dispensers. It’s fantastic to know that our platform has provided the speed, ease, and unique features you’ve been looking for in a cryptocurrency exchange.\n\nOne of our top priorities is ensuring that your Bitcoin transactions are fast and reliable, so we're thrilled to hear that you appreciated the quick transfer times from purchase to wallet availability. We understand how valuable prompt access to your funds is, and we’re committed to providing the kind of efficiency that sets us apart from other exchanges.\n\nWe’re especially glad that you find our CDReload service valuable, which lets you walk into over 16,000 retail locations and deposit cash directly into your Crypto Dispensers wallet. This feature was designed for users who want the flexibility of in-person cash transactions while enjoying the convenience of instant digital access. We believe that this “best of both worlds” approach is essential for making cryptocurrency accessible to everyone, regardless of their payment preferences.\n\nYour feedback highlights exactly what we aim to provide—a secure, accessible, and efficient way to buy and manage Bitcoin, all with the added benefit of a user-friendly cash deposit option. Thank you again for sharing your experience with us and for choosing Crypto Dispensers as your trusted platform. We look forward to supporting you in all your future cryptocurrency transactions!\n\nIf there’s ever anything more we can do to enhance your experience or if you have any questions, please don’t hesitate to reach out. Our team is always here to help.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Monday, November 4, 2024 at 10:39:45 PM"
         }
     },
     {
@@ -880,7 +932,7 @@
         "localisation": "US",
         "Titre": "Why I only use Crypto Dispensers now",
         "commentaire": "I've ben using bitcoin ATMs for the past 6 years, usually just whichever is closest to me at the time. I used Crypto Dispensers at a mall for a bigger transaction & realized their fees are way cheaper than the rest! I've been using them since. I had one issue a couple months ago, which pretty sure was my fault but reached out to their support & it was resolved the next morning. Can't recommend enough honestly!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "July 06, 2024",
         "reply": {
             "reply_text": "Dear RaisingSails Marketing,\n\nWe are truly grateful for your detailed feedback and thrilled to hear about your positive experiences with Crypto Dispensers. It's rewarding to know that our efforts to offer competitive fees and responsive customer support have made a significant impact on your decision to continue using our services.\n\nAt Crypto Dispensers, we strive to stand out in the cryptocurrency market by prioritizing affordability and accessibility. We understand that fees can be a major barrier for many users, and our goal has always been to make buying and selling Bitcoin as economical as possible. Hearing that our rates were noticeably lower during your visit at the mall is exactly the kind of feedback that fuels our commitment to maintain competitive pricing.\n\nMoreover, we're pleased to hear that your issue was resolved promptly and satisfactorily. Our customer support team is dedicated to resolving any concerns efficiently because we believe that strong support is the cornerstone of a reliable service. Your experience reaffirms that we are on the right track, and we appreciate your acknowledgment of our team's efforts.\n\nYour recommendation means the world to us. It not only validates the work we do but also helps spread the word about our services, encouraging more users to experience the benefits of Crypto Dispensers. We are continually working to enhance our technology and expand our services to meet and exceed our users' expectations.\n\nWe invite you to explore the various features we offer and to continue providing us with feedback, which is invaluable in our ongoing efforts to improve. Whether it's a suggestion for a new feature or feedback about an existing service, we are all ears.\n\nThank you once again for your trust and for being an advocate for Crypto Dispensers. We look forward to serving you for many more years, ensuring each transaction is as smooth and cost-effective as your first experience at the mall.\n\nIf there's anything more we can do to assist you or enhance your experience further, please reach out at any time. Our team is here to support you in your cryptocurrency journey, every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
@@ -889,15 +941,15 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "Priscilla",
+        "User": "customer",
         "localisation": "US",
-        "Titre": "Easy, simple, and convenient.",
-        "commentaire": "Creating and verifying an account was fast and simple. Surprisingly, even in my small town, they even had quite a few locations to access conveniently in order to make a purchase. EDIT* Have been trying to get in touch with support for more than a week, and zero response.",
-        "nombre_reviews": "1 review",
-        "date_experience": "June 13, 2024",
+        "Titre": "Crypto dispensers is a fast and easy…",
+        "commentaire": "Crypto dispensers is a fast and easy way to purchase crypto. I love the changes they’ve made and the referral bonus is a great incentive. I will continue to refer friends to this platform!\n\nUpdate:\n\nSince leaving a positive review Crypto Dispensers has ignored my recent support tickets. They advertised bonus for my deposit but didn’t follow through. The bonus was supposed to be credited immediately but nothing was added to my account. Upon reaching out, no one has responded in over 5 days. Now I regret making a large deposit and paying the unnecessary fees. It seems like their customer service has returned back to their old unresponsive ways!",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "July 31, 2024",
         "reply": {
-            "reply_text": "Dear Priscilla,\n\nThank you so much for taking the time to share your experience with Crypto Dispensers. We are thrilled to hear that you found creating and verifying your account to be fast and simple, and that our network of locations provided convenient access even in your small town.\n\nAt Crypto Dispensers, we strive to make the process of buying cryptocurrency as easy and accessible as possible for everyone, regardless of where they are located. It’s great to know that our efforts to expand our reach and simplify our platform are making a positive impact.\n\nWe appreciate your feedback, as it not only motivates us but also helps guide our efforts to improve and continue providing excellent service. If there’s anything more we can do to enhance your experience or if you have any questions as you continue to use our services, please don't hesitate to reach out. We are here to help!\n\nThank you once again for choosing Crypto Dispensers. We look forward to supporting your cryptocurrency journey and ensuring that each transaction is as convenient and straightforward as your initial experience.\n\nWarm regards and heartfelt thanks,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Wednesday, June 26, 2024 at 08:57:16 PM"
+            "reply_text": "Dear Customer,\n\nThank you so much for your fantastic 5-star review! We’re delighted to hear that you find Crypto Dispensers a fast and easy way to purchase crypto. It’s incredibly rewarding to know that our recent changes have enhanced your experience and that you appreciate the referral bonus as a great incentive.\n\nAt Crypto Dispensers, we’re committed to continuously improving our platform to make your cryptocurrency transactions as seamless and straightforward as possible. Your satisfaction is our top priority, and it’s wonderful to hear that the updates we’ve implemented have made a positive impact on your experience.\n\nWe’re especially pleased that you’re enjoying our referral program. Referrals are one of the highest compliments we can receive, and we’re thrilled that you’re eager to share Crypto Dispensers with your friends. Our goal is to reward our loyal users like you with incentives that make your crypto journey even more rewarding.\n\nOur CDReload service, available at over 16,000 major retail locations nationwide, makes buying Bitcoin with cash quick and convenient. Whether you’re a seasoned investor or new to the crypto world, we strive to offer an accessible and user-friendly experience that meets all your needs.\n\nYour positive feedback inspires us to keep improving and innovating. We are dedicated to enhancing our platform and finding new ways for you and your friends to benefit from using Crypto Dispensers.\n\nThank you once again for your trust, your referrals, and for choosing Crypto Dispensers. We look forward to continuing to support you in your cryptocurrency journey and ensuring that each experience is as positive and rewarding as the last.\n\nIf there’s anything more we can do to enhance your experience or assist you further, please don’t hesitate to reach out. Our team is always here to help you every step of the way.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Monday, August 19, 2024 at 04:41:06 PM"
         }
     },
     {
@@ -906,7 +958,7 @@
         "localisation": "US",
         "Titre": "Very quick and easy transactions highly…",
         "commentaire": "Very quick and easy transactions highly recommend to others. Crypto dispensers has gained a new customer for life!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "September 26, 2024",
         "reply": {
             "reply_text": "Dear Bo,\n\nThank you so much for your incredible 5-star review! We’re absolutely delighted to hear that you found your transactions with Crypto Dispensers to be quick and easy. Your recommendation and the fact that we’ve gained you as a customer for life mean the world to us!\n\nAt Crypto Dispensers, we are dedicated to making the process of buying Bitcoin and other cryptocurrencies as seamless and efficient as possible. It’s great to hear that our platform’s simplicity and speed have made a positive impact on your experience. Whether you’re using our CDReload service to convert cash to crypto at over 16,000 retail locations or taking advantage of our quick and secure online transactions, we’re committed to ensuring that every step of the process is smooth and hassle-free.\n\nWe take pride in offering a user-friendly platform, fast transaction times, and top-notch customer service to ensure that you have everything you need at your fingertips. Knowing that you’re satisfied with your experience and have chosen to make Crypto Dispensers your go-to service for cryptocurrency is incredibly rewarding.\n\nYour recommendation means everything to us, and we look forward to continuing to provide you with the exceptional service that has earned your trust. Thank you for choosing Crypto Dispensers, and for taking the time to share your positive experience with others. We are excited to continue serving you as a valued customer for life!\n\nIf there’s anything more we can do to enhance your experience or assist you further, please don’t hesitate to reach out. Our team is always here to help you every step of the way.\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
@@ -919,7 +971,7 @@
         "localisation": "US",
         "Titre": "Absolutely love crypto dispensers",
         "commentaire": "Absolutely love crypto dispensers\nI found them by accident when libertyx gave me issues . They accept cash at rite-aid ( rite-aid charges a fee of 4.95 ) that's so doable . Even through some hiccups they are easy to get ahold of . I usually email support or text but they are on tiktok too & Instagram. So you can easily find them if there's a problem. I love how I can also deposit money & not have to rush to buy btc. It can sit there if you want to wait\nThe whole process is fast & simple\nYour acct welcomes you by your name\nEverything is easy to follow\nI just deposited money today 8/3/24\nI definitely recommend trying them",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "August 03, 2024",
         "reply": {
             "reply_text": "Dear Susan,\n\nThank you so much for your detailed and enthusiastic 5-star review! We're thrilled to hear that you absolutely love Crypto Dispensers and that you've had such a positive experience with our services.\n\nAt Crypto Dispensers, our mission is to provide a seamless and user-friendly experience for buying and selling Bitcoin. We're delighted that you found us and that our platform has been able to meet your needs, especially after experiencing issues elsewhere. Your satisfaction is our top priority, and it's wonderful to know that you appreciate the convenience of our services, including the ability to deposit cash at Rite Aid and the flexibility to buy BTC at your own pace.\n\nWe're also glad to hear that you find our customer support easy to reach and responsive. Whether through email, text, TikTok, or Instagram, we strive to be accessible and helpful to our users. Your positive feedback about our welcoming and straightforward process motivates us to keep improving and innovating.\n\nOur CDReload service is designed to make converting cash to crypto as effortless as possible, providing you with flexibility and convenience. Your appreciation for this service and the overall user experience inspires us to continue enhancing our offerings.\n\nWe encourage you to keep exploring all the features we offer and to continue sharing your thoughts with us. Your feedback is invaluable in helping us refine our services and exceed your expectations.\n\nThank you once again for your trust and for recommending Crypto Dispensers. We look forward to supporting you in your cryptocurrency journey and ensuring that each experience is as positive as your last.\n\nIf there's anything more we can do to enhance your experience or assist you further, please don't hesitate to reach out. Our team is here to help you every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
@@ -932,7 +984,7 @@
         "localisation": "US",
         "Titre": "Absolutely amazing services!",
         "commentaire": "Crypto Dispensers is a great service! I’ve never once ran into any problems using their service and they’re very reliable, trust worthy, and also super fast. I’d give them 6 stars if I could!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "August 02, 2024",
         "reply": {
             "reply_text": "Dear Nate,\n\nThank you so much for your enthusiastic review! We're thrilled to hear that you find Crypto Dispensers' services absolutely amazing. Your praise for our reliability, trustworthiness, and speed is incredibly rewarding for us.\n\nAt Crypto Dispensers, our goal is to provide a seamless and dependable experience for buying and selling Bitcoin. We're delighted that you've never encountered any problems using our platform and appreciate the efficiency and security we strive to offer. Your satisfaction is our top priority, and it’s wonderful to know that our efforts are making a positive impact.\n\nOur CDReload service is another way we make converting cash to crypto as effortless as possible, providing you with flexibility and convenience. Your positive feedback motivates us to keep improving and innovating. We are committed to ensuring that every interaction with our platform is secure, fast, and rewarding.\n\nWe encourage you to keep exploring all the features we offer and to continue sharing your thoughts with us. Your feedback is invaluable in helping us refine our services and exceed your expectations.\n\nThank you once again for your trust and for choosing Crypto Dispensers for your Bitcoin transactions. We look forward to supporting you in your cryptocurrency journey and ensuring that each experience is as positive as your last. If you could give us 6 stars, we'd certainly strive to live up to that honor!\n\nIf there's anything more we can do to enhance your experience or assist you further, please don't hesitate to reach out. Our team is here to help you every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
@@ -945,7 +997,7 @@
         "localisation": "US",
         "Titre": "Best cryptocurrency platform ever.",
         "commentaire": "Best platform for cash to bitcoin.\nI've been a customer for the past 4 to 5 years and yes we do have our ups and down but still they're my go to for my bitcoin transaction and its swift and effortless.\nAll you need is your cash, your smartphone and your ID. Financial freedom, Yay!!!\nCarol.",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "July 30, 2024",
         "reply": {
             "reply_text": "Dear Carol,\n\nThank you so much for your heartfelt feedback! We're thrilled to hear that you consider Crypto Dispensers the best cryptocurrency platform ever. It means a lot to us that you have been a loyal customer for the past 4 to 5 years, and we're honored to be your go-to platform for Bitcoin transactions.\n\nAt Crypto Dispensers, we strive to offer a seamless and user-friendly service that makes engaging with cryptocurrency straightforward and enjoyable. We're delighted that you appreciate the simplicity and efficiency of our platform. Your satisfaction is our top priority, and it's incredibly rewarding to know that our efforts are making a positive impact on your financial journey.\n\nWe understand that every journey has its ups and downs, and we appreciate your continued trust and support through it all. Your positive feedback motivates us to keep improving and innovating. We are dedicated to ensuring that every transaction and interaction with our platform is smooth, secure, and rewarding. Your appreciation for our service inspires us to continue enhancing our offerings and finding new ways for you to benefit from using Crypto Dispensers.\n\nWe encourage you to keep exploring all the features we offer and to continue sharing your thoughts with us. Your feedback is invaluable in helping us refine our services and exceed your expectations.\n\nThank you once again for your trust and for being an advocate for Crypto Dispensers. We look forward to supporting you in your cryptocurrency journey and ensuring that each experience is as positive as your last.\n\nIf there's anything more we can do to enhance your experience or assist you further, please don't hesitate to reach out. Our team is here to help you every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
@@ -954,24 +1006,11 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "Nathan Lynch",
-        "localisation": "US",
-        "Titre": "Great customer service!",
-        "commentaire": "I had a problem buying Bitcoin after I added cash. I emailed them and I got a prompt response, explaining the situation. They proved that they valued me as a user of their services. I'm quite happy with their customer service.",
-        "nombre_reviews": "1 review",
-        "date_experience": "July 19, 2024",
-        "reply": {
-            "reply_text": "Dear Nathan,\n\nThank you so much for your kind words! We're thrilled to hear that you had a positive experience with our customer service team. It's great to know that we could promptly assist you with your Bitcoin purchase issue and provide the support you needed.\n\nAt Crypto Dispensers, we strive to ensure that every user feels valued and supported. Your satisfaction is our top priority, and it's incredibly rewarding to know that our efforts are making a positive impact on your experience. We understand that issues can arise, and we're committed to resolving them quickly and efficiently to ensure a smooth and seamless process for buying Bitcoin and other cryptocurrencies.\n\nOur CDReload service is designed to make converting cash to crypto as effortless as possible, providing you with flexibility and convenience. Your positive feedback motivates us to keep improving and innovating. We are dedicated to ensuring that every interaction with our platform is smooth, secure, and rewarding.\n\nWe encourage you to keep exploring all the features we offer and to continue sharing your thoughts with us. Your feedback is invaluable in helping us refine our services and exceed your expectations.\n\nThank you once again for your trust and for choosing Crypto Dispensers for your Bitcoin transactions. We look forward to supporting you in your cryptocurrency journey and ensuring that each experience is as positive as your last.\n\nIf there's anything more we can do to enhance your experience or assist you further, please don't hesitate to reach out. Our team is here to help you every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Saturday, August 3, 2024 at 06:45:31 PM"
-        }
-    },
-    {
-        "company_name": "Crypto Dispensers",
         "User": "Andy Andydd",
         "localisation": "US",
         "Titre": "Look NO futher than",
         "commentaire": "If you are looking for a company that is reliable at its core? and dedicated to helping its customers? Do you want to have a timley response to all your questions? then look no further than Crypto Dispensers! These guys are better then coinbase in my opinion! The staff is so smart and patient on top of being sweet as can be!",
-        "nombre_reviews": "1 review",
+        "nombre_reviews": "2 reviews",
         "date_experience": "May 24, 2024",
         "reply": {
             "reply_text": "Dear Andy,\n\nThank you for your enthusiastic review and for recommending Crypto Dispensers so highly! We are truly honored by your comparison and delighted to hear that you hold our platform in such high regard, especially when placed alongside industry giants like Coinbase.\n\nAt Crypto Dispensers, we strive to be a company that is not only reliable but also deeply committed to the satisfaction and success of our users. It's wonderful to know that our team's dedication and timely responses have made a significant positive impact on your experience.\n\nWe take great pride in the professionalism, patience, and kindness of our staff, and your acknowledgment of these qualities is incredibly affirming for all of us. We believe that our customer service should not only meet but exceed expectations at every turn, providing a supportive and friendly environment for everyone navigating the crypto space.\n\nThank you once again for choosing Crypto Dispensers and for your trust in our services. Your feedback is invaluable as it encourages us to continue improving and delivering the best possible experience to our community. We look forward to supporting your ongoing cryptocurrency journey and remain committed to being your trusted partner in all things crypto.\n\nIf there’s anything more we can do to assist you or enhance your experience further, please do not hesitate to reach out. We’re here to help and ensure that your interactions with us are nothing short of excellent.\n\nWarm regards and heartfelt thanks,\nThe Crypto Dispensers Customer Care Team",
@@ -980,55 +1019,56 @@
     },
     {
         "company_name": "Crypto Dispensers",
-        "User": "Gary Gedraitis",
+        "User": "Nathan Lynch",
         "localisation": "US",
-        "Titre": "Very great",
-        "commentaire": "Very great investment made easy",
-        "nombre_reviews": "1 review",
-        "date_experience": "October 28, 2024",
+        "Titre": "Great customer service!",
+        "commentaire": "I had a problem buying Bitcoin after I added cash. I emailed them and I got a prompt response, explaining the situation. They proved that they valued me as a user of their services. I'm quite happy with their customer service.",
+        "nombre_reviews": "2 reviews",
+        "date_experience": "July 19, 2024",
         "reply": {
-            "reply_text": "Dear Gary,\n\nThank you for your fantastic 5-star review! We’re delighted to hear that you found Crypto Dispensers to be a “very great” choice for your investments. Making the process of buying Bitcoin and other cryptocurrencies as simple and seamless as possible is what we strive for, and we’re thrilled to know that we’re helping to make your investment journey easier.\n\nAt Crypto Dispensers, we believe that everyone should have access to cryptocurrency in a way that’s straightforward and efficient. Our platform is designed with ease of use in mind, providing a smooth experience whether you're making your first transaction or building an established portfolio. From fast transactions to secure handling of funds, we’re committed to making every step of the process as user-friendly as possible.\n\nThank you once again for choosing Crypto Dispensers and for taking the time to share your positive experience. We look forward to continuing to support you in your investment journey and providing the reliable service you can count on. If there’s anything more we can do to enhance your experience or assist you further, please don’t hesitate to reach out. Our team is always here to help!\n\nBest regards,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Wednesday, October 30, 2024 at 05:49:20 PM"
+            "reply_text": "Dear Nathan,\n\nThank you so much for your kind words! We're thrilled to hear that you had a positive experience with our customer service team. It's great to know that we could promptly assist you with your Bitcoin purchase issue and provide the support you needed.\n\nAt Crypto Dispensers, we strive to ensure that every user feels valued and supported. Your satisfaction is our top priority, and it's incredibly rewarding to know that our efforts are making a positive impact on your experience. We understand that issues can arise, and we're committed to resolving them quickly and efficiently to ensure a smooth and seamless process for buying Bitcoin and other cryptocurrencies.\n\nOur CDReload service is designed to make converting cash to crypto as effortless as possible, providing you with flexibility and convenience. Your positive feedback motivates us to keep improving and innovating. We are dedicated to ensuring that every interaction with our platform is smooth, secure, and rewarding.\n\nWe encourage you to keep exploring all the features we offer and to continue sharing your thoughts with us. Your feedback is invaluable in helping us refine our services and exceed your expectations.\n\nThank you once again for your trust and for choosing Crypto Dispensers for your Bitcoin transactions. We look forward to supporting you in your cryptocurrency journey and ensuring that each experience is as positive as your last.\n\nIf there's anything more we can do to enhance your experience or assist you further, please don't hesitate to reach out. Our team is here to help you every step of the way.\n\nWarm regards,\nThe Crypto Dispensers Customer Care Team",
+            "reply_date": "Saturday, August 3, 2024 at 06:45:31 PM"
         }
     },
     {
-        "company_name": "Crypto Dispensers",
-        "User": "Edgard Murillo",
+        "company_name": "VapeTM",
+        "User": "Ricardo Sanchez",
         "localisation": "US",
-        "Titre": "I first had issues with the referral…",
-        "commentaire": "I first had issues with the referral still never paid for it then i could not withdraw cash because i expected my referral cash to go in never got help what i did get was a very inappropriate message from them on email i will show next message. Then i go today to add 20.00 that way i can finally withdraw nope I got errors after errors and now i have 39.00 dollars sitting there I am frustrated i will never go through them again once i get my cash out im done this is bs no help at all dont go here trust me !!!!",
+        "Titre": "Knowledgeable & Friendly",
+        "commentaire": "Great customer support and very informative. When I would speak with other company’s they didn’t know too much of the specifics when it comes to the machine itself or servicing it. Micah & Ben were always available to answer any questions or concerns I had. Even Megan and Reyeah in the office were great/easy to work with on the paper work side of things. 5/5 (Highly Recommend)",
         "nombre_reviews": "1 review",
-        "date_experience": "September 05, 2023",
-        "reply": {
-            "reply_text": "Dear Edgar’s Murillo,\n\nThank you for your candid feedback regarding your recent experience with our platform. We understand that there were frustrations with your transaction, and we would like to address these concerns directly.\n\nAs an emerging technology company, we are in the process of refining our software to provide the best possible service. Like any new system, ours is not without its challenges, and we are grateful to our user community for helping us identify and address these issues. It is indeed true that we experienced a technical glitch which temporarily affected transaction capabilities. We are committed to resolving these glitches as quickly as they are recognized.\n\nOur goal is to build a platform that not only meets but exceeds the expectations of our users, by incorporating feedback and making necessary adjustments. This iterative process is part of our journey towards perfection, but it requires time and patience. We are dedicated to transparency and responsiveness, and we strive to implement solutions that enhance user experience continuously.\n\nWe recognize that the temporary solutions provided did not meet your immediate needs, and for that, we apologize. It's important to clarify that our bonuses and promotional offers are designed to reward genuine engagement and loyalty from our users, not to serve as mere giveaways. We have policies in place to ensure that these incentives are used as intended—to foster a community of engaged and satisfied users who see genuine value in our services.\n\nRegrettably, we found that the repeated issues and interactions surrounding your account were not in keeping with the spirit of our community and our intended use of the platform. As a result, we made the difficult decision to close the account to protect the integrity of our service for other users.\n\nWe are committed to learning from every interaction and feedback, as it is crucial in shaping a reliable and effective platform. We appreciate your input, and while we regret that we will not continue our service relationship, we are earnest in our efforts to enhance our system for our community.\n\nThank you once again for your feedback.\n\nBest regards,\nCrypto Dispensers Customer Care Team",
-            "reply_date": "Saturday, July 6, 2024 at 12:14:19 PM"
-        }
+        "date_experience": "October 20, 2024",
+        "reply": null
     },
     {
-        "company_name": "Crypto Dispensers",
-        "User": "customer",
-        "localisation": "DE",
-        "Titre": "I had stopped using this company about…",
-        "commentaire": "I had stopped using this company about a year ago because their customer service sucks balls. Their response time (if they respond at all) is a F’ing joke. They don’t properly credit funds deposited. I made three separate deposits for $500 shortly after 2 am June 30th. Only two deposits have posted. Also, even with the $1,000 that has posted, I have not been able to purchase bitcoin.\n\nIf you read their responses about why this is happening, they give the same scripted response. The company is ate the F%*K up. They sent me an email a couple weeks ago to give them another chance-so here I am, and they’re suck ass today as they were last year when I stopped using them.\n\nDO NOT USE THIS COMPANY!!!",
+        "company_name": "VapeTM",
+        "User": "Cal Dickie",
+        "localisation": "US",
+        "Titre": "VapeTM is our preferred vending distributor",
+        "commentaire": "Micah with VapeTM has been a friendly contact when entering the vape vending business. The machines themselves are intuitive and fun to experiment with. They have allowed me to increase my vending sales and unlock new revenue streams with these high tech machines.",
         "nombre_reviews": "1 review",
-        "date_experience": "June 30, 2024",
-        "reply": {
-            "reply_text": "Dear Customer,\n\nThank you for taking the time to share your experience and for giving us another opportunity to serve you. We sincerely apologize that your recent experience did not meet your expectations, especially after reaching out to encourage you to give our platform another try.\n\nWe regret that you encountered issues during your transactions, particularly with the delay in crediting one of your deposits. It is crucial for us to clarify that there was indeed a system issue affecting deposit verifications at the time of your transactions. However, we have confirmed that all your deposits are now correctly posted, and the purchase issue has been resolved.\n\nAt Crypto Dispensers, we acknowledge that while our platform has experienced challenges, our commitment to resolving these issues robustly and efficiently defines our approach to customer service. We strive to learn from each incident and use this knowledge to prevent future occurrences, ensuring a better service for all our customers.\n\nWe truly regret the timing of your return coinciding with this issue and understand the frustration it caused. As part of our commitment to continuous improvement, we are actively enhancing our system's performance and our team's response times to provide a more reliable and user-friendly experience.\n\nWe invite you to reach out directly should you encounter any further issues or require assistance. Our support team is available at help@cryptodispensers.com or by phone at 888-212-2140, ready to provide the support and solutions you need.\n\nThank you for your patience and understanding. We hope to regain your trust and demonstrate the high standards of service we aim to deliver. We appreciate your feedback, as it is instrumental in our ongoing efforts to improve and ensure that experiences like yours become the exception, not the norm.\n\nBest regards,\nCrypto Dispensers Customer Care Team",
-            "reply_date": "Saturday, July 6, 2024 at 12:21:41 PM"
-        }
+        "date_experience": "November 01, 2024",
+        "reply": null
     },
     {
-        "company_name": "Crypto Dispensers",
-        "User": "Corey Persky",
+        "company_name": "VapeTM",
+        "User": "Austin Freeland",
         "localisation": "US",
-        "Titre": "A great new option to purchase my Crypto",
-        "commentaire": "I was driving home earlier today searching for a Bitcoin ATM and somehow I found a link for CryptoDispensers. It sounded like it possibly was too good to be true. They were offering $25 worth of free Bitcoin on your first deposit of $20 USD or more. With that information, I immediately opened an account with them. Went through the usual KYC (Know Your Customer), and before I knew it, I was at my closest CVS, making my first deposit of $250. I immediately received an email that the funds were in my account. I will definitely be using Crypto Dispensers from now on.",
+        "Titre": "These guys are great",
+        "commentaire": "These guys are great.\n\nalways responsive and they have videos for a lot of stuff you might encounter when installing or integrating these machines into your business.",
         "nombre_reviews": "1 review",
-        "date_experience": "March 13, 2024",
-        "reply": {
-            "reply_text": "Dear Corey Persky,\n\nYour review has truly brightened our day! We're thrilled to hear about your positive experience discovering and using Crypto Dispensers for the first time. Welcome to our community, and thank you for sharing your journey with us and others considering taking the leap into the world of cryptocurrency.\n\nFinding us while searching for a Bitcoin ATM and deciding to give our platform a try is a story we're excited to be a part of. We understand the hesitance that can come with trying something new, especially when it sounds too good to be true. That's why we're committed to transparency and providing real value to our users, including our $25 worth of free Bitcoin offer for first deposits of $20 USD or more. It's wonderful to know that this offer played a significant role in your decision to join us.\n\nWe're delighted that your initial deposit at CVS was not only successful but also efficiently added to your account, reflecting the seamless and user-friendly experience we strive to provide. Our goal is to make purchasing crypto as straightforward and accessible as possible, and it sounds like we were able to achieve that for you.\n\nHearing that you plan to continue using Crypto Dispensers is the best feedback we could ask for. We're here to support your crypto journey every step of the way, from making deposits at convenient locations like CVS to exploring new ways to engage with digital currencies.\n\nThank you once again for choosing Crypto Dispensers and for taking the time to share your experience. Your trust in us is greatly appreciated, and we're excited to have you as part of our growing community. We look forward to being your go-to platform for all your cryptocurrency needs.\n\nWarm regards and heartfelt thanks,\nThe Crypto Dispensers Customer Care Team",
-            "reply_date": "Thursday, March 21, 2024 at 02:14:20 PM"
-        }
+        "date_experience": "November 13, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "VapeTM",
+        "User": "Cole Kelly",
+        "localisation": "US",
+        "Titre": "Super great product",
+        "commentaire": "Super great product. They walked me through everything, way better machines then any snack machine I’ve ever put out!",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 12, 2024",
+        "reply": null
     },
     {
         "company_name": "VapeTM",
@@ -1038,16 +1078,6 @@
         "commentaire": "These people are experts in the game all the sales people and owner. Have and operate their own machines so all are super knowledgeable.",
         "nombre_reviews": "1 review",
         "date_experience": "October 21, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "VapeTM",
-        "User": "Tristan Wald",
-        "localisation": "US",
-        "Titre": "Good response time",
-        "commentaire": "Good response time, good troubleshooting",
-        "nombre_reviews": "1 review",
-        "date_experience": "October 18, 2024",
         "reply": null
     },
     {
@@ -1068,6 +1098,16 @@
         "commentaire": "Amazing company. If you are looking into the vape vending machine business, check them out! Great communication, great technology, fast to help with anything and the products look/and are great! Thank you for the awesome customer service as well. Highly recommend this company!!",
         "nombre_reviews": "1 review",
         "date_experience": "September 11, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "VapeTM",
+        "User": "Tristan Wald",
+        "localisation": "US",
+        "Titre": "Good response time",
+        "commentaire": "Good response time, good troubleshooting",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 18, 2024",
         "reply": null
     },
     {
@@ -2007,11 +2047,41 @@
     },
     {
         "company_name": "PNC Bank",
+        "User": "Adam Price",
+        "localisation": "US",
+        "Titre": "Tellers will lie to your face",
+        "commentaire": "I deposited a life insurance check and was told I would have access the next day but it was put on hold for 7 calendar days. There is no excuse in the current year of WiFi and instant electronic transfers to keep somebody's money for 7 days. If you can't handle cashing checks in a timely manner don't lie to people and tell them you can.",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 13, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Sheila",
+        "localisation": "US",
+        "Titre": "I would give them a zero if I could",
+        "commentaire": "I would give them a zero if I could. Just deposited a large amount of money in a money market account. I was able to use Face ID before this deposit but not after. Tried to change my password without success. PNC website has no options for any help. What happen with personnel banking. I am going back to my old bank Synovus. They are more attentive to your needs.",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 13, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Nadya Zakhozhaya",
+        "localisation": "US",
+        "Titre": "Terrible business.Deposited check…",
+        "commentaire": "Terrible business.Deposited check online more than 24 hours ago- no funds available at this moment. First and last time I opened an account with PNC. Unacceptable.",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 12, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
         "User": "John",
         "localisation": "US",
         "Titre": "I have had a checking account and…",
         "commentaire": "I have had a checking account and credit card account with PNC Bank for several years. During that time I have had numerous complaints with payments handling, and fraudulent credit card charges.\nIn the current fraud issue PNC has failed to correctly cancel charges, and incorrectly canceled the account because they claimed I reported the card lost or stolen, which is false. Avoid these people. I have never encountered a worse managed bank.\nClosed both accounts.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 07, 2024",
         "reply": null
     },
@@ -2021,7 +2091,7 @@
         "localisation": "US",
         "Titre": "My brother has a disability and they…",
         "commentaire": "My brother has a disability and they have no respect for that. We did a three way on a call and they go and have him look up information, log into an account he doesn't have, and they don't care how difficult it is. I called three times just to ask about his financing, one rep says all we need is his VIN, another says we just need a social, then the last one asks about dates and all this financial crap. They are the worst. I don't recommend them at all and they do not care about people with disabilities or have any sympathy when it comes to their clients. I will be reporting them to the BBB.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 07, 2024",
         "reply": null
     },
@@ -2031,7 +2101,7 @@
         "localisation": "US",
         "Titre": "Bank Would Not Authorize Money For Security Deposit For Moving",
         "commentaire": "I am in the process of moving, already a very stressful situation. I've been with PNC at least 10 years and when I went to get the money orders for my security deposit to drop off Monday (it's Saturday), bank did not authorize the $2,790. Money orders need to be purchased with a debit card or cash, can't mix and match. When I called the bank they said my debit card is capped at $2,000. I explained I NEED this money for my security deposit as I am moving. They would not make an exception or authorize the $790 I needed!!! WHAT?!!! This is my money!! I am so livid I could scream. I work full time and had to coordinate the time off to go drop off my security on Monday and now I am screwed because Monday is a bank holiday and they're closed. THANK YOU PNC FOR MAKING MY LIFE EVEN MORE OF LIVING HELL!!!!!!!!!!!!!!!! Can't wait to find a new bank.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 09, 2024",
         "reply": null
     },
@@ -2041,18 +2111,8 @@
         "localisation": "US",
         "Titre": "PNC agent",
         "commentaire": "Refuse to tell me full name and rep number after 1/2 hour non sense conversation to answer my questions , repeat same answers like broken vinyl , just hang up on me , well done !!",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 05, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Ron Behzadi",
-        "localisation": "US",
-        "Titre": "They will do anything to keep your money when you close your account including lies , delays, blames etc.",
-        "commentaire": "wanted to withdraw a good chunk of my savings, they said the account is locked due to non activity! (this is a savings account not checking!) takes 2 days to re activate, four days later, nothing, called again, each call is a 15-20 min wait and Q&A, they said they don't know why but it did not happen so another couple days, NOTHING! I needed my money so I asked them to close the account and transfer my money to another bank. their policy! due to large amounts of money they can not transfer and they will send me a check Within 7 to 10 days!. 11 days later, NOTHING! called again, she checked and said it was processed yesterday! and i should get it within 7 to 10 days! now 21 days later and NOTHING! called, sent from this girl to that guy , customer service to fraud dep. hanged up couple of times, had to file a complaint, got call next day, she said wait you may get it or apply for a stop payment, which they will mail me a document so I have to fill in and notarized and mail it back to them then they will check it out and hopefully put a stop payment on the previous check and re send another check, It may take few weeks!\nThrough it all, every time I asked for a tracking number or some kind of verification that the check is in the mail and they said they don't have any tracking number and they can not provide me with any proof other than the check number!\nNow It's the 4th. week and I am waiting for the paper they are going to send me, in the meantime I lost the deal that I needed the money for and lost thousands on interest. DO NOT WORK WITH pnc IF YOU VALUE YOUR MONEY.",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "October 17, 2024",
         "reply": null
     },
     {
@@ -2061,18 +2121,8 @@
         "localisation": "US",
         "Titre": "They are one of the worst banks that…",
         "commentaire": "They are one of the worst banks that I’ve ever had to deal with. A credit card company takes out a double payment on my account and then they want 13 days to dispute the transaction when it’s obvious you can see the same amount came out twice. Should’ve never taken this long, which causes a different credit card payment to be returned and then I get charged $39. They are so unprofessional. I am going to cancel their account and I’ll tell everybody that you totally suck.\nDon’t bank with PNC\nMichele Hutchinson",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "November 01, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Mel",
-        "localisation": "US",
-        "Titre": "Nothing is easy",
-        "commentaire": "It would help if they would listen to customers. I am helping my mom (elderly, English not first language, computer illiterate, marginal ability to use smartphone, father managed EVERYTHING before he died) to close a HELOC that she didn't even know was open (0 balance) so that we can close on the sale of her home in 2 days. One person yesterday was extremely helpful, but we could go no further as a HELOC close date had not been entered yet. We had to call again the next day (today) via 3 way conference call with my mother. We could not get past verifying her identity. They would not listen to our situation. They kept saying they could not verify her identity even though she verbally gave them her name and SSN. They asked her to confirm the amount of any withdrawal or deposit into her checking account, and she did not understand what they were asking. They did not make her do this the day before, so we didn't prepare any statements to be on hand. I tried to explain and they told me that no one was supposed to be on \"the other line.\" I have previously witnessed my mother be unable to manage a phone tree. She was clearly struggling to find a paper statement. They let her do this for several minutes. I asked if I could provide the information since I set up and manage online access for her. They said no. I asked if there was an email that I can send a power of attorney form to. Nope. Nothing from them except \"rules are rules\". They would not even look into the system to verify our story that we had faxed a letter last week to close the account. All we wanted was to have them fax an \"in process\" letter to the closing attorney's office when it became available. Honestly it would have been much easier for me to lie and impersonate my mother to get the HELOC closed myself. Lesson learned.",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "November 05, 2024",
         "reply": null
     },
     {
@@ -2081,18 +2131,28 @@
         "localisation": "US",
         "Titre": "Do NOT open a credit card with PNC…",
         "commentaire": "Do NOT open a credit card with PNC Bank! I have been a customer with PNC for several years. I fell on hard times earlier this year and got behind and was charged the first time a late fee back in May. However as of recently I have paid my balance off by missing 4 days and PNC intact another late fee of $27. Since my balance has been paid in full PNC would not waived the $27, stating I was given a curiosity waiver in May.\nThis is how PNC treat their long time customers and Jasmine the supervisor was very rude.\nI will be closing my credit card with PNC and close out my accounts with them expeditiously!",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 30, 2024",
         "reply": null
     },
     {
         "company_name": "PNC Bank",
-        "User": "Spenser Swingle",
+        "User": "Ron Behzadi",
         "localisation": "US",
-        "Titre": "They are no help when it comes to…",
-        "commentaire": "They are no help when it comes to disputes regarding identity theft and fraudulent transactions, despite my own word and evidence they overturned dispute charges that they first credited then reversed and debited and I have had to put disputes on the same charges twice for the same outcome. They need more security for our bank accounts because they let my account fall victim to unauthorized activity and some one took out 3 loans in my name from UpStart, LightStream and SoFi in my name and those companies are no good either they don’t have the proper checks and balances nor security to prevent fraudulent activity with their loans!",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "November 06, 2024",
+        "Titre": "They will do anything to keep your money when you close your account including lies , delays, blames etc.",
+        "commentaire": "wanted to withdraw a good chunk of my savings, they said the account is locked due to non activity! (this is a savings account not checking!) takes 2 days to re activate, four days later, nothing, called again, each call is a 15-20 min wait and Q&A, they said they don't know why but it did not happen so another couple days, NOTHING! I needed my money so I asked them to close the account and transfer my money to another bank. their policy! due to large amounts of money they can not transfer and they will send me a check Within 7 to 10 days!. 11 days later, NOTHING! called again, she checked and said it was processed yesterday! and i should get it within 7 to 10 days! now 21 days later and NOTHING! called, sent from this girl to that guy , customer service to fraud dep. hanged up couple of times, had to file a complaint, got call next day, she said wait you may get it or apply for a stop payment, which they will mail me a document so I have to fill in and notarized and mail it back to them then they will check it out and hopefully put a stop payment on the previous check and re send another check, It may take few weeks!\nThrough it all, every time I asked for a tracking number or some kind of verification that the check is in the mail and they said they don't have any tracking number and they can not provide me with any proof other than the check number!\nNow It's the 4th. week and I am waiting for the paper they are going to send me, in the meantime I lost the deal that I needed the money for and lost thousands on interest. DO NOT WORK WITH pnc IF YOU VALUE YOUR MONEY.",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 17, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Mel",
+        "localisation": "US",
+        "Titre": "Nothing is easy",
+        "commentaire": "It would help if they would listen to customers. I am helping my mom (elderly, English not first language, computer illiterate, marginal ability to use smartphone, father managed EVERYTHING before he died) to close a HELOC that she didn't even know was open (0 balance) so that we can close on the sale of her home in 2 days. One person yesterday was extremely helpful, but we could go no further as a HELOC close date had not been entered yet. We had to call again the next day (today) via 3 way conference call with my mother. We could not get past verifying her identity. They would not listen to our situation. They kept saying they could not verify her identity even though she verbally gave them her name and SSN. They asked her to confirm the amount of any withdrawal or deposit into her checking account, and she did not understand what they were asking. They did not make her do this the day before, so we didn't prepare any statements to be on hand. I tried to explain and they told me that no one was supposed to be on \"the other line.\" I have previously witnessed my mother be unable to manage a phone tree. She was clearly struggling to find a paper statement. They let her do this for several minutes. I asked if I could provide the information since I set up and manage online access for her. They said no. I asked if there was an email that I can send a power of attorney form to. Nope. Nothing from them except \"rules are rules\". They would not even look into the system to verify our story that we had faxed a letter last week to close the account. All we wanted was to have them fax an \"in process\" letter to the closing attorney's office when it became available. Honestly it would have been much easier for me to lie and impersonate my mother to get the HELOC closed myself. Lesson learned.",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 05, 2024",
         "reply": null
     },
     {
@@ -2101,18 +2161,18 @@
         "localisation": "US",
         "Titre": "Simple Loan Assumption - WRONG!",
         "commentaire": "During the divorce process my ex wife assumed the loan on our home. Seems like it would be a simple process given that she was the original qualifier for the loan and makes >$150K per year. Nope. The process for simply removing my name from the loan has taken over two months thus far and is not complete. I'm 'assured' that I am in line for processing....whatever the heck that means. Take a good look around at your mortgage options before considering PNC Bank.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 22, 2024",
         "reply": null
     },
     {
         "company_name": "PNC Bank",
-        "User": "Tye J.",
+        "User": "John Rollins",
         "localisation": "US",
-        "Titre": "This is Difficult and incompetent in…",
-        "commentaire": "This is Difficult and incompetent in banking- hands down...If you want to have your credit screwed up, or be tested when you call for any concern - this is the bank for you. I've had a hard time with a multiplicity of problems that i will spare you on the detail.. All i can say is I fell into the trap with this bank and cust service -well you might as well buckle up.....",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "October 23, 2024",
+        "Titre": "So many times that I've been overdraft…",
+        "commentaire": "So many times that I've been overdraft they waved the overdraft fee even at 2 days late Chase Bank would give me overdraft just because I knew I wrote a check before I deposited the funds they're a ripoff Chase Bank is PNC is awesome Bank my sisters my mom my family for years have been using it",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 25, 2024",
         "reply": null
     },
     {
@@ -2121,8 +2181,18 @@
         "localisation": "US",
         "Titre": "Rather not say",
         "commentaire": "Open my account two months ago received my debit card but no pin. Called customer support and spoke with a representative who said they would activate my card and send me a pin. Well let’s just say that the representative cancel my card and didn’t tell me. Spoke with someone else she tried to activate my card but couldn’t then cancel the second card. Finally received card number 3. Otp in overdraft coverage and PNC will may pay it or not. Overdraft coverage never worked after I spoke with representative and Manager. So I’m stopping my direct deposit and closing out my account Asap",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 19, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Spenser Swingle",
+        "localisation": "US",
+        "Titre": "They are no help when it comes to…",
+        "commentaire": "They are no help when it comes to disputes regarding identity theft and fraudulent transactions, despite my own word and evidence they overturned dispute charges that they first credited then reversed and debited and I have had to put disputes on the same charges twice for the same outcome. They need more security for our bank accounts because they let my account fall victim to unauthorized activity and some one took out 3 loans in my name from UpStart, LightStream and SoFi in my name and those companies are no good either they don’t have the proper checks and balances nor security to prevent fraudulent activity with their loans!",
+        "nombre_reviews": "1 review",
+        "date_experience": "November 06, 2024",
         "reply": null
     },
     {
@@ -2131,7 +2201,7 @@
         "localisation": "US",
         "Titre": "BANK SOMEWHERE ELSE",
         "commentaire": "Waiting on my last check to deposit so I can close this account with this God awful bank. I've never had so many issues with receiving/transferring MY money. \"OH we can't put in a complaint\" a complaint isn't going to fix anything especially my money I can't take out. Save yourself the time and headache and bank with another business. At this point I'm stuck waiting for the bank to get their heads screwed on to find my missing money.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 17, 2024",
         "reply": null
     },
@@ -2141,48 +2211,8 @@
         "localisation": "US",
         "Titre": "Do not bank with pnc",
         "commentaire": "Do not bank with pnc! Absolutely horrible customer service, if you could call it that! They miss enter my account # and stated I was trying to pass “fraudulent” checks. Due to their errors it was a mess. No one took ownership or apologized! Would not provide a corporate number, said “they don’t have corporate #”. Asked for complaint department, again don’t have one. For a financial institution to make such serious allegations against someone you would hope to think maybe should check and make sure information is accurate...not pnc. Worst experience with a bank that I have ever had.",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 11, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "John Rollins",
-        "localisation": "US",
-        "Titre": "So many times that I've been overdraft…",
-        "commentaire": "So many times that I've been overdraft they waved the overdraft fee even at 2 days late Chase Bank would give me overdraft just because I knew I wrote a check before I deposited the funds they're a ripoff Chase Bank is PNC is awesome Bank my sisters my mom my family for years have been using it",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "October 25, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Christy Hedger",
-        "localisation": "US",
-        "Titre": "PNC is so horrible",
-        "commentaire": "PNC is so horrible. If I could give negative stars, I would. You have a 100 year old account holder trying to access her account info from a medical facility. She verified ss#, account #, phone, name, and DOB but because she couldn't get a text-doesn't have a cell phone or unable to receive a message to verify her at her home-because she is not at home due to medical reasons, you hung up on her once and the next verification man was so rude. You don't have the ability or obviously the interest in servicing a senior person. The rudeness-extreme rudeness makes it even worse. I can't believe how awful this bank is. So many bad reviews too. Shame on PNC!!!! I will definitely be bad mouthing you to everyone!",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "October 15, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Kai.",
-        "localisation": "US",
-        "Titre": "Most ungrateful bank out there",
-        "commentaire": "I want to say PNC has got to be the most ungrateful bank out there. Ive bank with PNC since they open in Florida ages ago. They will happily take your money and be first them selves and wil not do anything for you as a client. PNC will nickel and dime you to death and try to charge you fees for any reason. I have escalated their “low cash mode” and “extra time” glitches the continue to effect my accounts and with them even admitting there is an issue. They still would try to sneak a fee here and there. I have moved all my money to another account as PNC has done absolutely nothing for me to bank with them. If they tried half as hard at trying to nickel and dime you towards appreciating you banking with them, they would be way more successful.",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "October 21, 2024",
-        "reply": null
-    },
-    {
-        "company_name": "PNC Bank",
-        "User": "Johnny",
-        "localisation": "US",
-        "Titre": "I never in my lifetime",
-        "commentaire": "I never in my lifetime, had to deal with a bank as bad as this. I don't have a PNC nowhere close to me. One of my bills only deal with cash, so when I use the ATM to make a withdrawal, not only does the ATM charge me 5.00 to do it, PNC charges 3.00 fee to do it. And if you happen to get overdrawn by as little as 5.00 they are quick to charge you 36.00 for overdraft fee.",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "November 02, 2024",
         "reply": null
     },
     {
@@ -2191,18 +2221,28 @@
         "localisation": "US",
         "Titre": "Great Start Up Bank",
         "commentaire": "Now although things may have ended abruptly, due to my financial situation drastically changing. I had PNC for a few years and personally i never had an issue with their services or with customer service they provide. It also wasn’t as strict on initially establishing a checking and or savings account. And that’s exactly what u needed, and bank that was willing to give me an opportunity, eventhough i may have made some financial mistakes in the past. Everyone always treated me with same exact respect and energy that i exuded whenever i needed assistance and i would still recommend at least stepping out on faith if you need the help, just as i did when i was with PNC.\nPeace Love Light and Healing to you all💜",
-        "nombre_reviews": "20 reviews",
+        "nombre_reviews": "1 review",
         "date_experience": "October 06, 2023",
         "reply": null
     },
     {
         "company_name": "PNC Bank",
-        "User": "Todd lane Brown",
+        "User": "Tye J.",
         "localisation": "US",
-        "Titre": "Had Fraudulent charges $1,100 PNC…",
-        "commentaire": "Had Fraudulent charges $1,100 PNC refunded $334 saying the other spend look as a normal pattern.\nA dinner charge with my wife and the fraud charge were 2 minutes apart and we were 30 miles away mind you i didn't have my card.\nThe other two store they said was normal spend I have never set foot in those stores. I have never spent $350.00 plus at anytime at any wal mart.\nI dont appreciate being called a liar and being robbed by people that are supposed to protect me from this activity.",
-        "nombre_reviews": "20 reviews",
-        "date_experience": "September 20, 2024",
+        "Titre": "This is Difficult and incompetent in…",
+        "commentaire": "This is Difficult and incompetent in banking- hands down...If you want to have your credit screwed up, or be tested when you call for any concern - this is the bank for you. I've had a hard time with a multiplicity of problems that i will spare you on the detail.. All i can say is I fell into the trap with this bank and cust service -well you might as well buckle up.....",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 23, 2024",
+        "reply": null
+    },
+    {
+        "company_name": "PNC Bank",
+        "User": "Christy Hedger",
+        "localisation": "US",
+        "Titre": "PNC is so horrible",
+        "commentaire": "PNC is so horrible. If I could give negative stars, I would. You have a 100 year old account holder trying to access her account info from a medical facility. She verified ss#, account #, phone, name, and DOB but because she couldn't get a text-doesn't have a cell phone or unable to receive a message to verify her at her home-because she is not at home due to medical reasons, you hung up on her once and the next verification man was so rude. You don't have the ability or obviously the interest in servicing a senior person. The rudeness-extreme rudeness makes it even worse. I can't believe how awful this bank is. So many bad reviews too. Shame on PNC!!!! I will definitely be bad mouthing you to everyone!",
+        "nombre_reviews": "1 review",
+        "date_experience": "October 15, 2024",
         "reply": null
     }
 ]
