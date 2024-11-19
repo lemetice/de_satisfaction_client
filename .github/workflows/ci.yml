@@ -56,8 +56,8 @@ jobs:
           if [ -z "${{ secrets.DOCKER_USERNAME }}" ]; then
             echo "DOCKER_USERNAME secret is missing"; exit 1;
           fi
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask_api:latest ./flask_api
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/dash_app:latest ./dash_app
+          docker build -t "${{ secrets.DOCKER_USERNAME }}/flask_api:latest" ./flask_api
+          docker build -t "${{ secrets.DOCKER_USERNAME }}/dash_app:latest" ./dash_app
 
       - name: Push Docker images
         run: |
