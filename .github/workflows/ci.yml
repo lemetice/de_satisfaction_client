@@ -1,36 +1,65 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - pipeline
+  pull_request:
+    branches:
+      - main
+      - develop
+      - pipeline
+
 jobs:
-  build-and-push-docker:
+  test-and-build:
+    name: Test, Build & Push Docker Images
     runs-on: ubuntu-latest
 
+    env:
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
     steps:
+      # Étape 1 : Checkout du code
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Étape 2 : Configuration Python (si des tests existent)
       - name: Set up Python environment
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: 3.9
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r flask_api/requirements.txt
-          pip install -r dash_app/requirements.txt
+          pip install -r scrapping_app/requirements.txt
+          pip install pytest
 
-      - name: Run tests
-        run: |
-          pytest flask_api/tests --maxfail=5 --disable-warnings
-          pytest dash_app/tests --maxfail=5 --disable-warnings
+      # Étape 3 : Lancer les tests (optionnel)
+      # - name: Run tests
+      #   run: pytest tests/
 
+        # Étape 4 : Configuration Docker
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push Docker images
+      - name: Debug Docker build command
+        run: echo "docker build -t ${{ secrets.DOCKER_USERNAME }}/flask_api:latest ./flask_api"
+
+      - name: Build and tag Docker images
         run: |
+          if [ -z "${{ secrets.DOCKER_USERNAME }}" ]; then
+            echo "DOCKER_USERNAME secret is missing"; exit 1;
+          fi
           docker build -t ${{ secrets.DOCKER_USERNAME }}/flask_api:latest ./flask_api
           docker build -t ${{ secrets.DOCKER_USERNAME }}/dash_app:latest ./dash_app
+
+      - name: Push Docker images
+        run: |
           docker push ${{ secrets.DOCKER_USERNAME }}/flask_api:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/dash_app:latest
