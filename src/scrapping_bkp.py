@@ -42,108 +42,6 @@ def scrape_trustpilot():
         result_list.append(concatenated_text)
     df_new_column = pd.DataFrame(result_list, columns=['infos'])
 
-    # Collecter les informations sur les entreprises
-    entreprise_elements = driver.find_elements(By.CLASS_NAME, 'styles_businessUnitMain__PuwB7')
-    informations_entreprises = []
-    for entreprise in entreprise_elements:
-        try:
-            nom_entreprise_element = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/main/div/div[2]/div/section/div[4]/a/div/div[2]/p')
-            nom_entreprise1 = nom_entreprise_element.text
-        except NoSuchElementException:
-            nom_entreprise1 = 'NA'
-
-        try:
-            # Récupérer le score de confiance
-            trust_score_element = entreprise.find_element(By.CSS_SELECTOR, 'span.typography_body-m__xgxZ_')
-            trust_score = trust_score_element.text.split()[-1]
-        except Exception as e:
-            trust_score = 'NA'
-
-        try:
-            # Récupérer le nombre de reviews
-            reviews = entreprise.find_element(By.CSS_SELECTOR, 'p.styles_ratingText__yQ5S7').text.split('|')[-1].strip()
-        except Exception as e:
-            reviews = 'NA'
-
-        try:
-            # Récupérer l'emplacement
-            emplacement = entreprise.find_element(By.CSS_SELECTOR, 'span.styles_location__ILZb0').text
-        except Exception as e:
-            emplacement = 'NA'
-
-        if reviews == 'NA':
-            trust_score = 'NA'
-
-        informations_entreprises.append({
-            'Nom': nom_entreprise1,
-            'TrustScore': trust_score,
-            'Reviews': reviews,
-            'Emplacement': emplacement,
-        })
-        # Créer un DataFrame avec les informations des entreprises
-        df_entreprises = pd.DataFrame(informations_entreprises)
-        df_entreprises = df_entreprises.assign(infos=df_new_column)
-
-        driver_2 = webdriver.Chrome()
-        driver_2.get("https://www.trustpilot.com/categories/atm?page=2")
-        data_2 = []
-        cards = driver_2.find_elements(By.CSS_SELECTOR, ".card_card__lQWDv")
-
-        for card in cards:
-            try:
-                name = card.find_element(By.CSS_SELECTOR, ".styles_displayName__GOhL2").text
-            except:
-                name = "NA"
-            
-            try:
-                location = card.find_element(By.CSS_SELECTOR, ".styles_location__ILZb0").text
-            except:
-                location = "NA"
-            
-            try:
-                infos = [info.text for info in card.find_elements(By.CSS_SELECTOR, ".styles_categoriesLabels__FiWQ4 span")]
-                infos = "·".join(infos)
-            except:
-                infos = "NA"
-
-            data_2.append({
-                "Nom": name,
-                "Location": location,
-                "Infos": infos
-            })
-    data_2 = pd.DataFrame(data_2)
-    data_2 = data_2.iloc[2:6].head()
-
-        # S'assurer que le DataFrame `df_entreprises` contient suffisamment de lignes
-    while len(df_entreprises) <= 23:
-        df_entreprises.loc[len(df_entreprises)] = [None] * len(df_entreprises.columns)
-
-    # Vérifier que `data_2` contient au moins 4 lignes
-    if len(data_2) < 4:
-        print("Erreur : `data_2` ne contient pas assez de lignes. Vérifiez votre scraping.")
-        return
-
-    # Insérer les valeurs de `data_2` dans `df_entreprises`
-    for i in range(4):  # Pour les lignes 20 à 23
-        df_entreprises.loc[20 + i, 'Nom'] = data_2.iloc[i, data_2.columns.get_loc('Nom')]
-        df_entreprises.loc[20 + i, 'Emplacement'] = data_2.iloc[i, data_2.columns.get_loc('Location')]
-        df_entreprises.loc[20 + i, 'infos'] = data_2.iloc[i, data_2.columns.get_loc('Infos')]
-
-
-    df_entreprises.head(24)
-
-    # Extraire des informations supplémentaires et les ajouter au DataFrame
-    df_entreprises['Reviews'] = df_entreprises['Reviews'].apply(
-        lambda x: int(''.join(filter(str.isdigit, str(x)))) if pd.notna(x) and ''.join(filter(str.isdigit, str(x))) else 0)
-    df_entreprises['review'] = df_entreprises['Reviews'].apply(lambda x: int(str(x).replace(',', '')) if x != 'NA' else 0)
-    df_entreprises['town'] = df_entreprises['Emplacement'].apply(lambda x: str(x).split(',')[0])
-    df_entreprises['country'] = df_entreprises['Emplacement'].apply(lambda x: str(x).split(',')[-1])
-    df_entreprises['institution_type'] = df_entreprises['infos'].apply(lambda x: str(x).split('·')[0])
-    df_entreprises['company_name'] = df_entreprises['Nom']
-    df_entreprises['trust_score'] = df_entreprises['TrustScore']
-
-    df_entreprises = df_entreprises.drop(columns=['Nom', 'TrustScore', 'Reviews', 'Emplacement', 'infos'])
-
     # Reccuperons les differents liens
     elements = WebDriverWait(driver, 10).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.paper_paper__1PY90.paper_outline__lwsUX.card_card__lQWDv.card_noPadding__D8PcU.styles_wrapper__2JOo2'))
@@ -279,29 +177,18 @@ def scrape_trustpilot():
 
         driver.switch_to.window(driver.window_handles[0])
         
-    score_etoile.append(score_5_etoile)
-
-    df_new_column = pd.DataFrame(score_etoile, columns=['five_star_%'])
-    df_entreprises['five_star_%'] = df_new_column
-    cols = df_entreprises.columns.tolist() 
-    cols.insert(5, cols.pop(0))
-    df_entreprises = df_entreprises[cols]
-    df_entreprises = df_entreprises.head(24)
-    df_entreprises.head(30)
 
 
     # Assurez-vous que le répertoire parent 'data' existe
-    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'db_init'))
+    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data'))
     os.makedirs(data_dir, exist_ok=True)
 
-    # Sauvegarder le DataFrame
-    df_entreprises.to_csv(os.path.join(data_dir, 'informations_entreprises_1.csv'), index=False)
 
     # Sauvegarder les commentaires en JSON
-    with open(os.path.join(data_dir, 'df_commentaires_par_entreprise.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(data_dir, 'df_commentaires_per_entreprise.json'), 'w', encoding='utf-8') as f:
         json.dump(commentaires_par_agence, f, ensure_ascii=False, indent=4)
 
-    print("Les données ont été enregistrées dans le répertoire parent 'db_init'.")
+    print("Les données ont été enregistrées dans le répertoire parent 'data'.")
 
     driver.quit()
 
