@@ -215,7 +215,8 @@ app.layout = dbc.Container([
         dbc.Col([html.H4("Company Dashboard")], width=12),
         #dbc.Col([dcc.Dropdown(
         #    id='dropdown-town',
-        #    options=[{'label': x, 'value': x} for x in df['town'].unique()],
+            #options=[{'label': x, 'value': x} for x in df['town'].unique()],
+        #    options=[{'label': x, 'value': x} for x in df['town'].dropna().unique() if x != 'NA' and pd.notnull(x)],
         #    multi=True,
         #    placeholder="Select a town"
         #)], width=6),
