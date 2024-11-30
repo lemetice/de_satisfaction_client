@@ -63,6 +63,19 @@ services:
     networks:
       - my_network
 
+  scrapping_app:
+    build:
+      context: ./scrapping_app
+    container_name: scrapping_app
+    depends_on:
+      - postgres
+      - mongodb
+    volumes:
+      - ./data:/app/data
+    networks:
+      - my_network
+    restart: "no"
+
 networks:
   my_network:
     driver: bridge
