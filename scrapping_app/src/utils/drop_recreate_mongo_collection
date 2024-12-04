@@ -1,0 +1,26 @@
+from pymongo import MongoClient
+
+def drop_and_recreate_collection():
+    try:
+        # Connexion au client MongoDB
+        client = MongoClient("mongodb://localhost:27017/")
+        
+        # Connexion à la base de données et à la collection
+        db = client['trustscore']  # Remplacez par le nom de votre base de données
+        
+        # Supprimer la collection
+        db.drop_collection('comments')  # Remplacez par le nom de votre collection
+        print("Collection supprimée avec succès.")
+        
+        # Recréer une collection vide (facultatif)
+        db.create_collection('comments')
+        print("Collection recréée avec succès.")
+        
+    except Exception as e:
+        print(f"Erreur : {e}")
+    finally:
+        # Fermer la connexion
+        client.close()
+
+# Exécutez la fonction
+drop_and_recreate_collection()

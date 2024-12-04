@@ -6,11 +6,6 @@ services:
       - "27017:27017"
     volumes:
       - ./db_init:/docker-entrypoint-initdb.d
-    command: >
-      bash -c "mongod --fork --logpath /var/log/mongodb.log --bind_ip_all
-      && mongoimport --db trustscore --collection commentaires --file /docker-entrypoint-initdb.d/df_commentaires_par_entreprise.json --type json --jsonArray
-      && mongod --shutdown
-      && mongod --bind_ip_all"
     networks:
       - my_network
     restart: unless-stopped
@@ -67,14 +62,57 @@ services:
     build:
       context: ./scrapping_app
     container_name: scrapping_app
-    depends_on:
-      - postgres
-      - mongodb
     volumes:
       - ./data:/app/data
     networks:
       - my_network
-    restart: "no"
+    restart: no  # Le scrapper s'arrête après son exécution
+    depends_on:
+      - mongodb
+      - postgres
+
+  scrapper_to_mongo:
+    build:
+      context: ./scrapping_app
+    container_name: scrapper_to_mongo
+    command: python src/jobs/insert_mongo.py
+    depends_on:
+      - mongodb
+      - scrapping_app
+    volumes:
+      - ./data:/app/data
+    networks:
+      - my_network
+      
+
+  scrapper_to_postgres:
+    build:
+      context: ./scrapping_app
+    container_name: scrapper_to_postgres
+    command: python src/jobs/insert_postgres.py
+    depends_on:
+      - postgres
+      - scrapping_app
+    volumes:
+      - ./data:/app/data
+    networks:
+      - my_network
+
+  preprocessing_service:
+    build:
+      context: ./scrapping_app
+      dockerfile: Dockerfile.preprocessing
+    container_name: preprocessing_service
+    command: python src/jobs/preprocess_data.py
+    volumes:
+      - ./data:/app/data
+    networks:
+      - my_network
+    depends_on:
+      - scrapping_app
+    restart: no
+      
+
 
 networks:
   my_network:

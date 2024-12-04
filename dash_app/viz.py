@@ -6,9 +6,12 @@ import plotly.express as px
 import dash_bootstrap_components as dbc
 import requests  # Nouveau
 import warnings
+import nltk
 from textblob import TextBlob
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+from nltk import download
+nltk.download('punkt')
 import re
 
 warnings.filterwarnings("ignore")
@@ -41,9 +44,30 @@ df.rename(columns={'five_star_percentage': 'five_star_%'}, inplace=True)
 df.rename(columns={'review': 'nombre_reviews'}, inplace=True)
 
 # Concaténer '%' aux valeurs et ignorer les NaN
-df['five_star_%'] = df['five_star_%'].apply(lambda x: f"{x * 100:.0f}%" if pd.notna(x) and isinstance(x, (int, float)) else x)
+#df['five_star_%'] = df['five_star_%'].apply(lambda x: f"{x * 100:.0f}%" if pd.notna(x) and isinstance(x, (int, float)) else x)
+
+
 
 def company_comment_processing(df_comments):
+    # Vérifiez que les colonnes existent
+    columns_to_drop = ['User', 'localisation', 'Titre', 'nombre_reviews', 'date_experience', 'reply']
+    existing_columns = [col for col in columns_to_drop if col in df_comments.columns]
+
+    # Supprimez les colonnes existantes seulement
+    text_df = df_comments.drop(existing_columns, axis=1)
+
+    # Nettoyez 'company_name'
+    if 'company_name' in df_comments.columns:
+        text_df['company_name'] = df_comments['company_name'].apply(lambda x: str(x).strip()[:11] + "...")
+    
+    # Renommez la colonne 'commentaire'
+    if 'commentaire' in text_df.columns:
+        text_df.rename(columns={'commentaire': 'text'}, inplace=True)
+
+    return text_df
+
+
+"""def company_comment_processing(df_comments):
 
     df_comments['company_name']= df_comments['company_name'].apply(lambda x: str(x).strip()[:11] + "...")
 
@@ -53,7 +77,10 @@ def company_comment_processing(df_comments):
     text_df.rename(columns={'commentaire': 'text'}, inplace=True)
     #text_df.head()
 
-    return text_df
+    return text_df """
+
+
+
 
 #Comment processing
 def comments_preprocessing(text):
@@ -68,10 +95,23 @@ def comments_preprocessing(text):
 
 #Stream word
 
-stemmer = PorterStemmer()
+"""stemmer = PorterStemmer()
 def stemming(data):
     text = [stemmer.stem(word) for word in data]
-    return data
+    return data"""
+
+
+stemmer = PorterStemmer()
+
+def stemming(data):
+    # Vérifiez si les données sont une chaîne valide
+    if not isinstance(data, str):
+        data = ""  # Remplace les valeurs non conformes par une chaîne vide
+    
+    # Découpe en mots et applique le stemming
+    text = [stemmer.stem(word) for word in data.split()]
+    return " ".join(text)
+
 
 #Polarity fxn
 def polarity(text):
@@ -110,6 +150,14 @@ print("Données de commentaires récupérées :", df_comments)
 def compute_sentiment_analysis(df_comments):
 
     text_df = company_comment_processing(df_comments)
+    # Remplir les valeurs manquantes et assurer que 'text' est une chaîne
+    text_df['text'] = text_df['text'].fillna("").astype(str)
+
+    # Appliquer le prétraitement des commentaires
+    text_df['text'] = text_df['text'].apply(comments_preprocessing)
+
+    # Appliquer le stemming
+    text_df['text'] = text_df['text'].apply(stemming)
 
     df_polarity =pd.DataFrame()
 
@@ -157,6 +205,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 #                            mapbox_style="carto-positron", zoom=3, height=500)
 
 # Company Trust Score Bar Chart
+print("Colonnes disponibles dans le DataFrame :", df.columns)
 trust_fig = px.bar(df, y='company_name', x='trust_score', color='trust_score', title="Trust Score by Company")
 trust_fig.update_layout(barmode='stack', yaxis={'categoryorder':'total ascending'}, height=500)
 
@@ -165,9 +214,9 @@ institution_fig = px.pie(df, names='institution_type', title="Institution Type D
 
 # Review Distribution Histogram
 # Remove the '%' sign and convert to numeric type
-df['five_star_%'] = df['five_star_%'].str.rstrip('%').astype('float')
-df = df.sort_values('five_star_%')
-df['five_star_%'] = df['five_star_%'].astype(str) + '%'
+#df['five_star_%'] = df['five_star_%'].str.rstrip('%').astype('float')
+#df = df.sort_values('five_star_%')
+#df['five_star_%'] = df['five_star_%'].astype(str) + '%'
 review_dist_fig = px.histogram(df, x='five_star_%', title="Review Distribution", color='five_star_%')
 
 # Top Reviewed Companies

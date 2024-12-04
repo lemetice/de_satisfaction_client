@@ -1,4 +1,7 @@
-CREATE TABLE companies (
+DO $$ BEGIN   RAISE NOTICE 'Executing init_postgres.sql...'; END $$;
+
+
+    CREATE TABLE companies (
     company_id SERIAL PRIMARY KEY,
     town VARCHAR(255),
     country VARCHAR(255),
@@ -9,8 +12,8 @@ CREATE TABLE companies (
     five_star_percentage NUMERIC
 );
 
--- Charger les données dans la table avec les colonnes modifiées
-COPY companies (town, country, institution_type, company_name, trust_score, review, five_star_percentage)
-    FROM '/docker-entrypoint-initdb.d/data.csv'
-    DELIMITER ','
-    CSV HEADER;
+
+
+
+
+

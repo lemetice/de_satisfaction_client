@@ -33,3 +33,6 @@ def insert_into_mongodb(json_file, mongo_url="mongodb://mongodb:27017/", db_name
 
     finally:
         client.close()
+
+
+

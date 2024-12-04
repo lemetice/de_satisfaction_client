@@ -4,6 +4,8 @@ from src.scrapers.comment_scraper import scrape_trustpilot_comments
 from src.utils.data_processing import process_and_join_data
 from selenium.webdriver.chrome.options import Options
 from src.utils.mongodb_utils import insert_into_mongodb
+from src.utils.postgres_utils import insert_into_postgres
+from src.utils.data_processing import process_enterprise_data
 import pandas as pd
 import os
 import json
@@ -52,14 +54,13 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=options)
     base_url = "https://www.trustpilot.com/categories/atm?page={}"
     output_dir = '/app/data'
-    #output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data'))
-        # Insérer les commentaires dans MongoDB
-    comments_file = os.path.join(output_dir, "comments.json")
-    # Insérer les commentaires dans MongoDB
-    try:
-        insert_into_mongodb(comments_file)
-    except Exception as e:
-        print(f"Error during MongoDB insertion: {e}")
+   
+        # Avant l'insertion dans PostgreSQL
+    processed_df = process_enterprise_data(
+        input_file='/app/data/informations_entreprises.csv',
+        output_file='/app/data/processed_informations_entreprises.csv'
+    )
+
     try:
         # Scrape and save enterprises
         scrape_and_save_enterprises(driver, base_url, output_dir)

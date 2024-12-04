@@ -34,6 +34,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py .  
 COPY src/ src/
+COPY data/ ./data/
 
 # Exposer un port si nécessaire (non nécessaire pour un scraper, mais utile si vous utilisez Flask ou Dash)
 # EXPOSE 8050

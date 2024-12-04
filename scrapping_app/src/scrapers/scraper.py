@@ -72,7 +72,7 @@ def scrape_trustpilot_enterprises_details(driver, base_url, num_pages=1):
 
     data = {
         'Lien': liens,
-        'five_Star_Percentage': score_etoile,
+        'five_star_percentage': score_etoile,
         'Commentaire': commentaires_par_agence
     }
     return pd.DataFrame(data)

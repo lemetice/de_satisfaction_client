@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from pymongo import MongoClient
+from sqlalchemy import inspect
 import os
 
 app = Flask(__name__)
@@ -61,6 +62,11 @@ def get_comments():
     comments = list(mongo_db.commentaires.find({}, {'_id': 0}))
     return jsonify(comments), 200
 
+inspector = inspect(db.engine)
+columns = [col['name'] for col in inspector.get_columns('companies')]
+if 'company_id' not in columns:
+    print("La colonne 'company_id' n'existe pas.")
+
 if __name__ == '__main__':
-    #db.create_all()
+    db.create_all()
     app.run(host='0.0.0.0', port=5000, debug=True)

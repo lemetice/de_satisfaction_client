@@ -85,22 +85,65 @@ def scrape_trustpilot_comments(driver, base_url, num_pages=1):
                             review_text = comment.find_element(By.CSS_SELECTOR, '.typography_body-l__KUYFJ').text
                         except Exception:
                             review_text = 'NA'
+                        
+                        try:
+                            review_count_element = WebDriverWait(driver, 10).until(
+                            EC.presence_of_element_located((By.CSS_SELECTOR, '.styles_consumerExtraDetails__fxS4S > span.typography_body-m__xgxZ_'))
+                            )
+                            review_count = review_count_element.text
+                        except NoSuchElementException:
+                            review_count = 'NA'   
 
                         try:
                             date_of_experience = comment.find_element(By.CSS_SELECTOR, 'p[data-service-review-date-of-experience-typography]').text.replace('Date of experience: ', '').strip()
                         except Exception:
                             date_of_experience = 'NA'
 
-                        # Ajouter les données du commentaire
-                        commentaires_par_agence.append({
-                            'company_name': titre_text,
-                            'user_name': user_name,
-                            'user_location': user_location,
-                            'title': title,
-                            'comment': review_text,
-                            'review_content': review_content,
-                            'date_of_experience': date_of_experience
-                        })
+                        try:
+                            reply_element = comment.find_element(By.CSS_SELECTOR, '.paper_paper__1PY90')
+                            reply_text = reply_element.find_element(By.CSS_SELECTOR, '.styles_message__shHhX').text
+                            reply_date_element = reply_element.find_element(By.CSS_SELECTOR, '.styles_replyDate__Iem0_')
+                            reply_date = reply_date_element.get_attribute('title')
+
+                            comment_data = {
+                        'company_name': titre_text,
+                        'User': user_name,
+                        'localisation': user_location,
+                        'Titre': title,
+                        'commentaire': review_text,
+                        'nombre_reviews': review_count,
+                        'date_experience': date_of_experience,
+                        'reply': {
+                            'reply_text': reply_text,
+                            'reply_date': reply_date
+                        }
+                        }
+                        except NoSuchElementException:
+                            comment_data = {
+                                'company_name': titre_text,
+                                'User': user_name,
+                                'localisation': user_location,
+                                'Titre': title,
+                                'commentaire': review_text,
+                                'nombre_reviews': review_count,
+                                'date_experience': date_of_experience,
+                                'reply': None
+                            }
+
+                        # Ajouter les données du commentaire (avec ou sans réponse) à la liste des commentaires de l'agence
+                        commentaires_par_agence.append(comment_data)
+                        i = i+1
+
+                    # Ajouter les données du commentaire
+                    #    commentaires_par_agence.append({
+                    #        'company_name': titre_text,
+                    #        'User': user_name,
+                    #        'localisation': user_location,
+                    #        'Titre': title,
+                    #        'commentaire': review_text,
+                    #        'nombre_reviews': review_count,
+                    #        'date_experience': date_of_experience
+                    #    })
 
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
