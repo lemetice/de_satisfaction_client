@@ -1,7 +1,7 @@
 town,country,institution_type,company_name,trust_score,review,five_star_%
-Portland,United States,ATM,Evergreen Credit Union,4.8,347,95.0
+Portland,United States,Financial Institution,Evergreen Credit Union,4.8,348,95.0
 Lincoln,United States,Car Finance and Loan Company,Liberty First Credit Union,4.8,326,92.0
-Chicago,United States,ATM,Crypto Dispensers,4.1,241,65.0
+Chicago,United States,Money Transfer Service,Crypto Dispensers,4.1,242,65.0
 Cleveland,United States,Beauty Products Vending Machine,VapeTM,4.6,21,100.0
 Atlanta,United States,Bank,Anytime Capital,4.4,15,93.0
 San Francisco,United States,Financial Institution,Swadesh,4.4,10,100.0
@@ -23,7 +23,7 @@ Unknown,Unknown,Cryptocurrency Service,Atmx,2.0,10,0.0
 Unknown,Unknown,Cryptocurrency Service,Atmx,2.0,10,0.0
 Matawan,United States,Non-Bank Financial Service,Centrohelp,1.4,33,0.0
 Matawan,United States,Non-Bank Financial Service,Centrohelp,1.4,33,0.0
-Pittsburgh,United States,ATM,PNC Bank,1.3,1363,5.0
+Pittsburgh,United States,Bank,PNC Bank,1.3,1367,5.0
 Fort Lauderdale,United States,Eftpos Equipment Supplier,Nationwide Payment Systems,0.0,0,0.0
 Chicago,United States,Bank,Liberty Bank for Savings,0.0,0,0.0
 Carlsbad,United States,Business to Business Service,ATMDepot.com,0.0,0,0.0

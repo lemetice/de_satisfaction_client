@@ -4,22 +4,17 @@ from dash import Dash, html, dcc, Output, Input
 import pandas as pd
 import plotly.express as px
 import dash_bootstrap_components as dbc
-import requests  # Nouveau
-import warnings
-import nltk
+import requests
 from textblob import TextBlob
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
-from nltk import download
-nltk.download('punkt')
 import re
+import warnings
 
 warnings.filterwarnings("ignore")
 
 # Base URL de l'API Flask
 BASE_URL = "http://flask_api:5000/api"
-#BASE_URL = "http://localhost:5000/api"
-
 
 # Récupérer les données des entreprises via l'API
 companies_response = requests.get(f"{BASE_URL}/companies")
@@ -37,309 +32,169 @@ else:
     print("Erreur lors de la récupération des commentaires :", comments_response.json())
     df_comments = pd.DataFrame()  # DataFrame vide en cas d'erreur
 
-# Renommer la colonne 'five_star_percentage' en 'five_star_%'
-df.rename(columns={'five_star_percentage': 'five_star_%'}, inplace=True)
 
-#Renommer la colonne review
-df.rename(columns={'review': 'nombre_reviews'}, inplace=True)
+# Assurez-vous que 'date_experience' est bien une colonne dans df_comments
+if 'date_experience' in df_comments.columns:
+    df_comments['date_experience'] = pd.to_datetime(df_comments['date_experience'], errors='coerce')
+    df_comments['year'] = df_comments['date_experience'].dt.year
+else:
+    print("Erreur : 'date_experience' n'est pas présent dans df_comments.")
 
-# Concaténer '%' aux valeurs et ignorer les NaN
-#df['five_star_%'] = df['five_star_%'].apply(lambda x: f"{x * 100:.0f}%" if pd.notna(x) and isinstance(x, (int, float)) else x)
+# Vérifiez que la colonne year est bien ajoutée
+print("Colonnes dans df_comments après ajout de 'year' :", df_comments.columns)
 
+# Prétraitement des colonnes
+df.rename(columns={'five_star_percentage': 'five_star_%', 'review': 'nombre_reviews'}, inplace=True)
 
+# Convertir et formater `five_star_%`
+df['five_star_%'] = df['five_star_%'].apply(
+    lambda x: f"{x * 100:.0f}%" if pd.notna(x) and isinstance(x, (int, float)) else x
+)
 
+# Prétraitement des commentaires
 def company_comment_processing(df_comments):
-    # Vérifiez que les colonnes existent
-    columns_to_drop = ['User', 'localisation', 'Titre', 'nombre_reviews', 'date_experience', 'reply']
-    existing_columns = [col for col in columns_to_drop if col in df_comments.columns]
+    #df_comments['company_name'] = df_comments['company_name'].apply(lambda x: str(x).strip()[:11] + "...")
+    df_comments.rename(columns={'commentaire': 'text'}, inplace=True)
+    df_comments['text'] = df_comments['text'].fillna('').astype(str)  # Remplacer NaN par une chaîne vide
+    return df_comments[['text', 'company_name', 'year']]
 
-    # Supprimez les colonnes existantes seulement
-    text_df = df_comments.drop(existing_columns, axis=1)
-
-    # Nettoyez 'company_name'
-    if 'company_name' in df_comments.columns:
-        text_df['company_name'] = df_comments['company_name'].apply(lambda x: str(x).strip()[:11] + "...")
-    
-    # Renommez la colonne 'commentaire'
-    if 'commentaire' in text_df.columns:
-        text_df.rename(columns={'commentaire': 'text'}, inplace=True)
-
-    return text_df
-
-
-"""def company_comment_processing(df_comments):
-
-    df_comments['company_name']= df_comments['company_name'].apply(lambda x: str(x).strip()[:11] + "...")
-
-    text_df = df_comments.drop(['User', 'localisation', 'Titre','nombre_reviews', 'date_experience', 'reply'
-           ], axis=1)
-           
-    text_df.rename(columns={'commentaire': 'text'}, inplace=True)
-    #text_df.head()
-
-    return text_df """
-
-
-
-
-#Comment processing
-def comments_preprocessing(text):
-    text = text.lower()
-    text = re.sub(r"https\S+|www\S+https\S+", '',text, flags=re.MULTILINE)
-    text = re.sub(r'\@w+|\#','',text)
-    text = re.sub(r'[^\w\s]','',text)
-    text_tokens = word_tokenize(text)
-    filtered_text = [w for w in text_tokens if not w in stop_words]
-
-    return " ".join(filtered_text)
-
-#Stream word
-
-"""stemmer = PorterStemmer()
-def stemming(data):
-    text = [stemmer.stem(word) for word in data]
-    return data"""
-
-
+# Nettoyage des textes pour le traitement des sentiments
 stemmer = PorterStemmer()
 
 def stemming(data):
-    # Vérifiez si les données sont une chaîne valide
     if not isinstance(data, str):
-        data = ""  # Remplace les valeurs non conformes par une chaîne vide
-    
-    # Découpe en mots et applique le stemming
+        return data
     text = [stemmer.stem(word) for word in data.split()]
     return " ".join(text)
 
-
-#Polarity fxn
 def polarity(text):
     return TextBlob(text).sentiment.polarity
 
-#Comment status
 def sentiment(label):
-    if label <0:
+    if label < 0:
         return "Negative"
-    elif label ==0:
+    elif label == 0:
         return "Neutral"
-    elif label>0:
+    else:
         return "Positive"
 
-
-def comment_polarity(text_df):
-    
-    #text_df.text = text_df['text'].apply(comments_preprocessing)
-    text_df = text_df.drop_duplicates('text')
-
-    #apply streamer
-    text_df['text'] = text_df['text'].apply(lambda x: stemming(x))
-
-    #compute polarity
+# Analyse des sentiments
+def compute_sentiment_analysis(df_comments):
+    text_df = company_comment_processing(df_comments)
+    text_df = text_df.drop_duplicates('text')  # Supprimer les doublons
+    text_df['text'] = text_df['text'].apply(stemming)  # Appliquer le stemming
     text_df['polarity'] = text_df['text'].apply(polarity)
-
-    #Detect comment polarity
     text_df['sentiment'] = text_df['polarity'].apply(sentiment)
-
     return text_df
 
-# Vérifiez les données récupérées par l'API
-print("Données de commentaires récupérées :", df_comments)
+df_polarity = compute_sentiment_analysis(df_comments)
 
-
-def compute_sentiment_analysis(df_comments):
-
-    text_df = company_comment_processing(df_comments)
-    # Remplir les valeurs manquantes et assurer que 'text' est une chaîne
-    text_df['text'] = text_df['text'].fillna("").astype(str)
-
-    # Appliquer le prétraitement des commentaires
-    text_df['text'] = text_df['text'].apply(comments_preprocessing)
-
-    # Appliquer le stemming
-    text_df['text'] = text_df['text'].apply(stemming)
-
-    df_polarity =pd.DataFrame()
-
-    for company in text_df.company_name.unique():
-        text_df[text_df.company_name==company]
-        comp_pol =comment_polarity(text_df[text_df.company_name==company])
-        comp_pol['company_name']= company
-        df_polarity= pd.concat([df_polarity,comp_pol])
-
-    #fig = plt.figure(figsize=(5,5))
-    #sns.countplot(x='sentiment', data = df_polarity)
-    return df_polarity
-
-
+# Jointure pour regrouper les sentiments par entreprise et année
 def get_company_sentiment_count_per_year(df_comments, df_polarity):
+    # Harmonisation des colonnes clés
 
-    df_comments.rename(columns={"commentaire": "text"}, inplace=True)
-    df_p = df_polarity.merge(df_comments[['year', 'company_name','text']], on=['text', 'company_name'], how='left')
-    
-    # Group by company_name, year, and sentiment, then count the occurrences
-    grouped_df = df_p.groupby(['company_name', 'year', 'sentiment']).size().unstack(fill_value=0)
-    
-    # Reset the index to make the DataFrame more readable
-    grouped_df = grouped_df.reset_index()
+    # Appliquer un nettoyage strict et cohérent à text et company_name
+    df_comments['text'] = df_comments['text'].str.lower().str.strip()
+    df_polarity['text'] = df_polarity['text'].str.lower().str.strip()
 
-    #print(grouped_df.head())
+    df_comments['company_name'] = df_comments['company_name'].str.lower().str.strip()
+    df_polarity['company_name'] = df_polarity['company_name'].str.lower().str.strip()
 
+    # Affichez les exemples pour confirmer le nettoyage
+    print("Exemples dans df_comments['company_name'] après nettoyage :", df_comments['company_name'].unique()[:5])
+    print("Exemples dans df_polarity['company_name'] après nettoyage :", df_polarity['company_name'].unique()[:5])
+    print("Exemples dans df_comments['text'] après nettoyage :", df_comments['text'].unique()[:5])
+    print("Exemples dans df_polarity['text'] après nettoyage :", df_polarity['text'].unique()[:5])
+
+
+    print("Colonnes dans df_comments :", df_comments.columns)
+
+    # Ajouter le stemming à df_comments['text']
+    df_comments['text'] = df_comments['text'].apply(lambda x: stemming(x) if isinstance(x, str) else x)
+
+    # Réimprimer les exemples pour vérifier
+    print("Exemples dans df_comments['text'] après stemming :", df_comments['text'].unique()[:5])
+    print("Exemples dans df_polarity['text'] :", df_polarity['text'].unique()[:5])
+
+
+    # Merge avec l'indicateur pour analyse
+    df_p = df_polarity.merge(
+        df_comments[['year', 'company_name', 'text']],
+        on=['text', 'company_name'],
+        how='left',
+        indicator=True
+    )
+
+    # Vérifiez les statistiques du merge
+    print("Statistiques sur l'indicateur de merge (_merge) :", df_p['_merge'].value_counts())
+
+    # Identifier les lignes sans correspondance
+    no_match = df_p[df_p['_merge'] == 'left_only']
+    print("Lignes sans correspondance après stemming :")
+    print(no_match[['text', 'company_name']].head(10))
+
+
+    # Utiliser `year_y` comme colonne pour le groupby
+    if 'year_y' in df_p.columns:
+        df_p['year'] = df_p['year_y']
+    else:
+        print("Erreur : la colonne 'year_y' est absente après le merge.")
+        return pd.DataFrame()  # Retourne un DataFrame vide pour éviter des erreurs
+
+    # Vérifiez les lignes manquantes
+
+    # Group by company_name, year, and sentiment, puis compter les occurrences
+    grouped_df = df_p.groupby(['company_name', 'year', 'sentiment']).size().unstack(fill_value=0).reset_index()
+
+    print("Résultat final du groupby :", grouped_df.head())
     return grouped_df
 
-warnings.filterwarnings("ignore")
-# Load data
-#df = pd.read_csv('atm_company_info.csv')
 
-# Initialize Dash app
-
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
-
-################################################################################################################
-###### Company Analysis Figures
-################################################################################################################
-# Map Visualization
-#map_fig = px.scatter_mapbox(df, lat='latitude', lon='longitude', hover_name='company_name',
-#                            color='trust_score', size='trust_score',
-#                            mapbox_style="carto-positron", zoom=3, height=500)
-
-# Company Trust Score Bar Chart
-print("Colonnes disponibles dans le DataFrame :", df.columns)
-trust_fig = px.bar(df, y='company_name', x='trust_score', color='trust_score', title="Trust Score by Company")
-trust_fig.update_layout(barmode='stack', yaxis={'categoryorder':'total ascending'}, height=500)
-
-# Institution Type Pie Chart
-institution_fig = px.pie(df, names='institution_type', title="Institution Type Distribution")
-
-# Review Distribution Histogram
-# Remove the '%' sign and convert to numeric type
-#df['five_star_%'] = df['five_star_%'].str.rstrip('%').astype('float')
-#df = df.sort_values('five_star_%')
-#df['five_star_%'] = df['five_star_%'].astype(str) + '%'
-review_dist_fig = px.histogram(df, x='five_star_%', title="Review Distribution", color='five_star_%')
-
-# Top Reviewed Companies
-top_companies_fig = px.bar(df.sort_values(by='nombre_reviews', ascending=False).head(10), 
-                           x='company_name', y='nombre_reviews', title="Top Reviewed Companies")
-
-# Company Comparison Radar Chart (trust_score vs five_star_%)
-#df_melt = pd.melt(df, id_vars=['company_name'], value_vars=['trust_score', 'five_star_%'])
-#comparison_fig = px.line_polar(df_melt, r='value', theta='variable', color='company_name', 
-#                               line_close=True, title="Company Comparison")
-
-
-
-
-################################################################################################################
-###### Comment Sentiment Analysis 
-################################################################################################################
-#print(" Comment Sentiment Analysis")
-
-
-# Example sentiment analysis - dummy data
-#df_comments['sentiment'] = df_comments['commentaire'].apply(lambda x: 'Positive' if 'good' in x else 'Negative')
-
-df_polarity = compute_sentiment_analysis(df_comments)
-# Sentiment Analysis Bar Chart
-sentiment_fig = px.bar(df_polarity, x='company_name', color='sentiment', title="Sentiment Analysis per company")
-
-# Comments Over Time Line Chart
 df_comments['date_experience'] = pd.to_datetime(df_comments['date_experience'])
-df_comments['year'] = df_comments.date_experience.dt.year
-df_g = df_comments.groupby(['year', 'company_name']).size().reset_index()
-df_g.rename(columns={0: 'nbr_comments'}, inplace=True)
-comments_over_time_fig = px.line(df_g, x='year', y='nbr_comments', title="Number of Comments Over Time", color='company_name', markers=True)
+df_comments['year'] = df_comments['date_experience'].dt.year
+grouped_df = get_company_sentiment_count_per_year(df_comments, df_polarity)
+print("Contenu de grouped_df :", grouped_df)
+missing_companies = set(df_comments['company_name'].unique()) - set(grouped_df['company_name'].unique())
+print("Entreprises manquantes :", missing_companies)
 
-# Sentiment Analysis Histogram per year per company
-grouped_df = get_company_sentiment_count_per_year(df_comments,df_polarity)
 
-################################################################################################################
-###### Dashboards/layouts 
-################################################################################################################
+# Dash App Layout
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+
 app.layout = dbc.Container([
-    dbc.Row([        
-        ############### Add filters
-        #dbc.Col([dcc.Graph(figure=map_fig)], width=12),
-        dbc.Col([html.H4("Company Dashboard")], width=12),
-        #dbc.Col([dcc.Dropdown(
-        #    id='dropdown-town',
-            #options=[{'label': x, 'value': x} for x in df['town'].unique()],
-        #    options=[{'label': x, 'value': x} for x in df['town'].dropna().unique() if x != 'NA' and pd.notnull(x)],
-        #    multi=True,
-        #    placeholder="Select a town"
-        #)], width=6),
-        #dbc.Col([ dcc.Dropdown(
-        #    id='filter-country',
-        #    options=[{'label': x, 'value': x} for x in df['country'].unique()],
-        #    multi=False,
-        #    placeholder="Select a Country"
-        #)], width=6),     
-        dbc.Col([dcc.Graph( id = 'filter-town',figure=trust_fig)], width=6),
-        #dbc.Col([dcc.Graph(figure=institution_fig)], width=6),
-        dbc.Col([dcc.Graph(figure=top_companies_fig)], width=6),
-        #dbc.Col([dcc.Graph(figure=review_dist_fig)], width=6),
-        #dbc.Col([dcc.Graph(figure=comparison_fig)], width=6),
-        #dbc.Col([dcc.Graph(id='filtered-graph')], width=6),
+    dbc.Row([
+        dbc.Col(html.H1("Company Dashboard"), width=12),
+        dbc.Col(dcc.Graph(figure=px.bar(df, y='company_name', x='trust_score', title="Trust Score by Company")), width=6),
+        dbc.Col(dcc.Graph(figure=px.pie(df, names='institution_type', title="Institution Type Distribution")), width=6),
     ]),
-    dbc.Row([        
-        dbc.Col([html.H4("User Feedback Dashboard")], width=12),
-        dbc.Col([dcc.Graph(figure=sentiment_fig)], width=6),
-        dbc.Col([dcc.Graph(figure=comments_over_time_fig)], width=6), 
-
-        html.H1("Sentiment Analysis Histogram per year per company"),
-        # Dropdown for selecting a company
-        dcc.Dropdown(
+    dbc.Row([
+        dbc.Col(html.H1("Sentiment Analysis Dashboard"), width=12),
+        dbc.Col(dcc.Dropdown(
             id='company-dropdown',
             options=[{'label': company, 'value': company} for company in grouped_df['company_name'].unique()],
-            value=grouped_df['company_name'].unique()[0],  # Default to the first company
-            clearable=False,
-            style={'width': '50%'}
-        ),
-    
-    # Graph to display the histogram
-    dcc.Graph(id='histogram'),
-    ]),
+            value=grouped_df['company_name'].unique()[0] if not grouped_df.empty else None,
+            clearable=False
+        ), width=6),
+        dbc.Col(dcc.Graph(id='histogram'), width=12),
+    ])
 ])
 
-# Filtered Trust Score Chart
-"""@app.callback(
-    dash.dependencies.Output('filtered-graph', 'figure'),
-    [dash.dependencies.Input('dropdown-town', 'value')]
-)"""
-
-def update_graph(selected_town):
-    if selected_town:
-        filtered_df = df[df['town'].isin(selected_town)]
-    else:
-        filtered_df = df
-    
-    fig = px.bar(filtered_df, x='company_name', y='trust_score', color='trust_score', title="Filtered Trust Score")
-    fig.update_layout(xaxis_title="Year", yaxis_title="Count")
-    return fig
-
-# Define the callback to update the graph based on the selected company
+# Callback for sentiment histogram
 @app.callback(
     Output('histogram', 'figure'),
     [Input('company-dropdown', 'value')]
 )
 def update_histogram(selected_company):
-    # Filter the DataFrame for the selected company
-    filtered_df = grouped_df[grouped_df['company_name'] == selected_company]
-    
-    # Create a histogram using Plotly Express
-    fig = px.bar(
-        filtered_df.melt(id_vars=['company_name', 'year']),
-        x='year',
-        y='value',
-        color='sentiment',
-        barmode='group',
-        title=f'Sentiment Types Trend for {selected_company} per Year'
-    )
-    fig.update_layout(xaxis_title="Year", yaxis_title="Count")
-    return fig
+    if not grouped_df.empty and selected_company:
+        filtered_df = grouped_df[grouped_df['company_name'] == selected_company]
+        fig = px.bar(
+            filtered_df.melt(id_vars=['company_name', 'year']),
+            x='year', y='value', color='sentiment', barmode='group',
+            title=f'Sentiment Types Trend for {selected_company} per Year'
+        )
+        return fig
+    return px.bar(title="No data available")
 
+# Lancer le serveur Dash
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0', port=8050, debug=True)
-
-

@@ -9,11 +9,11 @@ def drop_and_recreate_collection():
         db = client['trustscore']  # Remplacez par le nom de votre base de données
         
         # Supprimer la collection
-        db.drop_collection('comments')  # Remplacez par le nom de votre collection
+        db.drop_collection('commentaires')  # Remplacez par le nom de votre collection
         print("Collection supprimée avec succès.")
         
         # Recréer une collection vide (facultatif)
-        db.create_collection('comments')
+        db.create_collection('commentaires')
         print("Collection recréée avec succès.")
         
     except Exception as e:
