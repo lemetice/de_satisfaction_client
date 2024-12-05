@@ -111,6 +111,17 @@ services:
     depends_on:
       - scrapping_app
     restart: no
+
+  orchestrator:
+    build:
+      context: ./orchestrator
+    container_name: orchestrator
+    networks:
+      - my_network
+    depends_on:
+      - scrapping_app
+      - scrapper_to_postgres
+      - scrapper_to_mongo
       
 
 

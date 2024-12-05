@@ -1,0 +1,1 @@
+1 * * * * python3 /app/orchestrator.py >> /var/log/orchestrator.log 2>&1
