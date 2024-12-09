@@ -158,7 +158,7 @@ de_satisfaction_client/
 ## **Contributeurs**
 
 - **Nom** : Lemetice
-- **Contact** : [votre.email@example.com](mailto:votre.email@example.com)
+- **Contact** : 
 
 ---
 
