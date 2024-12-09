@@ -1,34 +1,35 @@
 town,country,institution_type,company_name,trust_score,review,five_star_percentage
 Portland,United States,Financial Institution,Evergreen Credit Union,4.8,348,95.0
 Lincoln,United States,Car Finance and Loan Company,Liberty First Credit Union,4.8,326,92.0
-Chicago,United States,Money Transfer Service,Crypto Dispensers,4.1,242,65.0
-Cleveland,United States,Beauty Products Vending Machine,VapeTM,4.6,21,100.0
+Chicago,United States,Investment Service,Crypto Dispensers,4.1,242,65.0
+Cleveland,United States,Skin Care Products Vending Machine,VapeTM,4.6,22,100.0
 Atlanta,United States,Bank,Anytime Capital,4.4,15,93.0
 San Francisco,United States,Financial Institution,Swadesh,4.4,10,100.0
 San Diego,United States,ATM,The Payment HQ,4.0,4,100.0
 San Jose,United States,Debt Relief Service,Meriwest Credit Union,3.8,9,67.0
 Las Vegas,United States,ATM,Coinhub Bitcoin ATM,3.7,8,37.0
-NA,NA,NA,ASDFTEST,3.7,1,100.0
 San Diego,United States,NA,ATM Together,3.7,1,100.0
-Roxbury,United States,ATM,WPC Merchant Services & Credit Card Processing,3.7,1,100.0
+NA,NA,NA,ASDFTEST,3.7,1,100.0
+Roxbury,United States,Business to Business Service,WPC Merchant Services & Credit Card Processing,3.7,1,100.0
 NA,NA,ATM,Netspend Corporation,3.4,7,14.0
 NA,NA,ATM,Heritage Valley Federal Credit Union,2.9,12,76.0
 NA,NA,Bank,Members 1st Federal Credit Union,2.9,3,33.0
 NA,NA,ATM,Pactin,2.9,2,0.0
 NA,NA,Non-Bank Financial Service,Rockland Trust,2.8,7,29.0
 Cookeville,United States,Alternative Financial Service,Cash Express,2.7,23,35.0
-NA,NA,ATM,cryptobaseatm.com,2.7,4,50.0
 NA,NA,Alternative Financial Service,Socialhelp,2.6,4,0.0
+NA,NA,Cryptocurrency Service,cryptobaseatm.com,2.5,5,40.0
 NA,NA,Cryptocurrency Service,Atmx,2.0,10,0.0
 NA,NA,Cryptocurrency Service,Atmx,2.0,10,0.0
+NA,NA,ATM,Bitcoin Depot,1.4,44,7.0
+NA,NA,ATM,Bitcoin Depot,1.4,44,7.0
 Matawan,United States,Non-Bank Financial Service,Centrohelp,1.4,33,0.0
-Matawan,United States,Non-Bank Financial Service,Centrohelp,1.4,33,0.0
-Pittsburgh,United States,Bank,PNC Bank,1.3,1367,5.0
+Pittsburgh,United States,Bank,PNC Bank,1.3,1372,5.0
 Fort Lauderdale,United States,Eftpos Equipment Supplier,Nationwide Payment Systems,NA,NA,0.0
 Chicago,United States,Bank,Liberty Bank for Savings,NA,NA,0.0
 Carlsbad,United States,Business to Business Service,ATMDepot.com,NA,NA,0.0
 Lenexa,United States,Cryptocurrency Service,Universal Money Centers,NA,NA,0.0
 NA,NA,Cryptocurrency Service,Covault,NA,NA,0.0
+Laredo,United States,Money Order Service,Kryptominerstech,NA,NA,0.0
 Dania Beach,United States,NA,Acme ATM,NA,NA,0.0
 NA,NA,NA,Vertexatm,NA,NA,0.0
-Laredo,United States,Money Order Service,Kryptominerstech,NA,NA,0.0
